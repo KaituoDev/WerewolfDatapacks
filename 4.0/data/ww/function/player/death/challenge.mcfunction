@@ -9,7 +9,7 @@ function ww:player/tag/sanitize
 function ww:player/death/_message {message: \
   '[ \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
-    {"text":" 在決鬥中戰死","color":"white","bold":false} \
+    {"text":" 在决斗中战死","color":"white","bold":false} \
   ]' \
 }
 

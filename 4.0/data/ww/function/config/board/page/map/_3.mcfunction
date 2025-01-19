@@ -21,12 +21,12 @@ $execute at @e[nbt={UUID:$(origin)}] run data merge block ^-2 ^-1 ^1 { \
 
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^-1 ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
-  '{"text":"顯示詳情","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/action/map/_info\\", args: {}}"}}', \
+  '{"text":"显示详情","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/action/map/_info\\", args: {}}"}}', \
   '""','""'], color:"white"} \
 }
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^-1 ^-1 ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
-  '{"text":"上一頁","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/map/_2\\", args: {}}"}}', \
+  '{"text":"上一页","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/map/_2\\", args: {}}"}}', \
   '""','""'], color:"white"} \
 }
 
@@ -37,13 +37,13 @@ $execute at @e[nbt={UUID:$(origin)}] run data merge block ^ ^ ^1 { \
 }
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^ ^-1 ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
-  '{"text":"主畫面","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/_home\\", args: {}}"}}', \
+  '{"text":"主画面","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/_home\\", args: {}}"}}', \
   '""','""'], color:"white"} \
 }
 
 # Right 1
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^1 ^ ^1 { \
-  front_text:{has_glowing_text:0b, messages: ['""','{"text":"隨機地圖","color":"aqua","bold":true}', \
+  front_text:{has_glowing_text:0b, messages: ['""','{"text":"随机地图","color":"aqua","bold":true}', \
   '""', '""'], color:"white"} \
 }
 $function ww:config/board/action/toggle/_update_sign {origin: $(origin), pos: '^1 ^ ^1', name: 'RANDOM_MAP'}

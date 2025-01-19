@@ -1,7 +1,7 @@
 # context: @s = player
 # inputs: {origin, pos, name: config name, choices}
 
-$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'設定 $(name) 不存在'}
+$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'设定 $(name) 不存在'}
 $execute store result score %count ww.var run data get storage ww:memory config.'$(name)'
 
 # update choices if valid

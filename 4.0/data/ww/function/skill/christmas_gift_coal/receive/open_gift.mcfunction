@@ -2,6 +2,6 @@
 
 execute if entity @s[type=player] run function ww:chat/_dm { \
   type: 'info', \
-  message: '你偷到禮物了，好奇心驅使你直接打開', \
+  message: '你偷到礼物了，好奇心驱使你直接打开', \
 }
 function ww:skill/christmas_gift_coal/run

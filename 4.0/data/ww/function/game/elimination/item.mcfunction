@@ -5,14 +5,14 @@ clear @s *[minecraft:custom_data~{elimination_vote:true}]
 execute store result score %index ww.var run data get storage ww:memory config.VOTE_ITEM_TYPE
 
 execute if score %index ww.var matches 0 run \
-  give @s netherite_sword[item_name='{"bold":true,"color":"gold","text":"暴民劍"}',unbreakable={},rarity="epic",custom_data={elimination_vote: true}] 1
+  give @s netherite_sword[item_name='{"bold":true,"color":"gold","text":"暴民剑"}',unbreakable={},rarity="epic",custom_data={elimination_vote: true}] 1
 
 execute if score %index ww.var matches 1 run \
-  give @s netherite_sword[item_name='{"bold":true,"color":"gold","text":"遠距暴民劍"}',unbreakable={},rarity="epic",custom_data={elimination_vote: true},attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"entity_interaction_range",amount:1000,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+  give @s netherite_sword[item_name='{"bold":true,"color":"gold","text":"远距暴民剑"}',unbreakable={},rarity="epic",custom_data={elimination_vote: true},attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"entity_interaction_range",amount:1000,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
 
 execute if score %index ww.var matches 2 run \ 
   give @s warped_fungus_on_a_stick[ \
-    item_name='{"bold":true,"color":"gold","text":"穿牆投票"}', \
+    item_name='{"bold":true,"color":"gold","text":"穿墙投票"}', \
     unbreakable={show_in_tooltip:false},rarity="epic", \
     custom_data={function: "ww:game/elimination/variation/passthrough", elimination_vote: true}, \
     attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"entity_interaction_range",amount:-5,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false} \

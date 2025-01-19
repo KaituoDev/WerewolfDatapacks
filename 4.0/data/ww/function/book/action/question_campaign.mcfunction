@@ -6,11 +6,11 @@ data modify storage ww:temp storeDataInput set value {}
 
 # 1. stores the campaign selection
 execute if score @s ww.questionCampaign matches 1 run data modify storage ww:temp getResultInput.askCampaign set value "bads"
-execute if score @s ww.questionCampaign matches 1 run data modify storage ww:temp storeDataInput.campaign set value "狼人陣營"
+execute if score @s ww.questionCampaign matches 1 run data modify storage ww:temp storeDataInput.campaign set value "狼人阵营"
 execute if score @s ww.questionCampaign matches 2 run data modify storage ww:temp getResultInput.askCampaign set value "goods"
-execute if score @s ww.questionCampaign matches 2 run data modify storage ww:temp storeDataInput.campaign set value "人類陣營"
+execute if score @s ww.questionCampaign matches 2 run data modify storage ww:temp storeDataInput.campaign set value "人类阵营"
 execute if score @s ww.questionCampaign matches 3 run data modify storage ww:temp getResultInput.askCampaign set value "spirits"
-execute if score @s ww.questionCampaign matches 3 run data modify storage ww:temp storeDataInput.campaign set value "怨靈陣營"
+execute if score @s ww.questionCampaign matches 3 run data modify storage ww:temp storeDataInput.campaign set value "怨灵阵营"
 scoreboard players reset @s ww.questionCampaign
 
 

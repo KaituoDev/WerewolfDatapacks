@@ -3,7 +3,7 @@
 clear @s written_book[minecraft:custom_data={"ww.book":"ww.skill.masochist_search"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"尋找教徒"}', \
+  title: '{"bold":true,"color":"aqua","text":"寻找教徒"}', \
   id: 'ww.skill.masochist_search' \
 }
 

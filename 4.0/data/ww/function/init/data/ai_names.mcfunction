@@ -3,10 +3,10 @@
 data modify storage ww:memory AICustomNames set value [ \
  "四糸乃", \
  "捷克", \
- "卡歐魯", \ 
+ "卡欧鲁", \ 
  "酷米", \
  "伊然", \
- "熊貓", \
+ "熊猫", \
  "X大", \
  "SL", \
  "蘑菇", \
@@ -15,9 +15,9 @@ data modify storage ww:memory AICustomNames set value [ \
  "欣欣", \
  "阿坤", \
  "巧克力", \
- "寧雪", \
+ "宁雪", \
  "奈奈", \
  "小夜", \
- "鯊鯊", \
- "企鵝", \
+ "鲨鲨", \
+ "企鹅", \
 ]

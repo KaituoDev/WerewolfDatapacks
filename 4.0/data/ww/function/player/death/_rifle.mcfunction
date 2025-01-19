@@ -12,7 +12,7 @@ $function ww:player/death/_message {message: \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
     {"text":" 被 ","color":"white","bold":false}, \
     {"selector":"@n[nbt={UUID:$(source)}]","color":"green","bold":true}, \
-    {"text":" 的獵槍打中拉下水","color":"white","bold":false} \
+    {"text":" 的猎枪打中拉下水","color":"white","bold":false} \
   ]' \
 }
 

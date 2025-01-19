@@ -6,7 +6,7 @@ execute unless data storage ww:output playerState run return fail
 clear @s written_book[minecraft:custom_data={"ww.book":"ww.intro.role"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"職業介紹"}', \
+  title: '{"bold":true,"color":"aqua","text":"职业介绍"}', \
   id: 'ww.intro.role' \
 }
 

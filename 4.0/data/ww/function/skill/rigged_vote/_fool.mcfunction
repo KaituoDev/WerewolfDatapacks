@@ -15,6 +15,6 @@ scoreboard players operation %maxVoteCount ww.system > @s ww.vote_summary
 # broadcast
 tag @s add this_rigger
 $execute as @a run function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"selector":"@n[tag=this_rigger]","color":"red","bold":true},{"text":" 偷走了 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player1)}]","color":"green","bold":true},{"text":" 和 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player2)}]","color":"green","bold":true},{"text":" 的票倉","color":"white","bold":false}]' \ 
+  '[{"selector":"@n[tag=this_rigger]","color":"red","bold":true},{"text":" 偷走了 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player1)}]","color":"green","bold":true},{"text":" 和 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player2)}]","color":"green","bold":true},{"text":" 的票仓","color":"white","bold":false}]' \ 
 }
 tag @s remove this_rigger

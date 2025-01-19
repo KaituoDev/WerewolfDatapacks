@@ -3,7 +3,7 @@
 
 $execute if entity @n[nbt={UUID:$(victim)},tag=krampus] run return run function ww:chat/_dm { \
   type: 'error', \
-  message: '不得標記坎普斯', \
+  message: '不得标记坎普斯', \
 }
 
 $execute if entity @n[nbt={UUID:$(source)},tag=!ww.fool] run \ 

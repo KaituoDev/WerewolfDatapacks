@@ -17,4 +17,4 @@ execute if predicate ww:is_night run data modify storage ww:memory GameBarTexts.
   '[{"text":"☾ ","color":"white","bold":true},{"score":{"name":"%timeLeft","objective":"ww.var"},"bold":true,"color":"gold"}," "]'
 
 execute if predicate ww:is_night if score %isBloodMoon ww.system matches 1 run data modify storage ww:memory GameBarTexts.time set value \
-  '[{"text":"☾ 血月降臨 ","color":"red","bold":true},{"score":{"name":"%timeLeft","objective":"ww.var"},"bold":true,"color":"gold"}," "]'
+  '[{"text":"☾ 血月降临 ","color":"red","bold":true},{"score":{"name":"%timeLeft","objective":"ww.var"},"bold":true,"color":"gold"}," "]'

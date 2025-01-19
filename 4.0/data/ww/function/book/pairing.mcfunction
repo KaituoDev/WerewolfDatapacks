@@ -4,7 +4,7 @@
 clear @s written_book[minecraft:custom_data~{"ww.book":"ww.skill.pairing"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"配對書"}', \
+  title: '{"bold":true,"color":"aqua","text":"配对书"}', \
   id: 'ww.skill.pairing' \
 }
 

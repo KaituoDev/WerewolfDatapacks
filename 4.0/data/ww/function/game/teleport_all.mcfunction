@@ -2,7 +2,7 @@
 
 # checks if there are any maps modified already
 execute unless function ww:game/map/select run return run \ 
-  execute as @a run function ww:chat/_dm {type:'error', message:'請至少設定一張地圖的位置'}
+  execute as @a run function ww:chat/_dm {type:'error', message:'请至少设定一张地图的位置'}
 
 # fail safe
 execute if score %map ww.system matches ..-1 run scoreboard players set %map ww.system 0

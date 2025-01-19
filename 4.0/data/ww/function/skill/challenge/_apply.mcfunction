@@ -3,7 +3,7 @@
 
 tag @s add this_challenger
 $execute as @a run function ww:chat/_dm {type: 'rich_info', \
-  message: '[{"selector":"@n[tag=this_challenger]","color":"yellow","bold":true},{"text":" 向 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(uuid)}]","color":"red","bold":true},{"text":" 發起決鬥","color":"white","bold":false}]' \
+  message: '[{"selector":"@n[tag=this_challenger]","color":"yellow","bold":true},{"text":" 向 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(uuid)}]","color":"red","bold":true},{"text":" 发起决斗","color":"white","bold":false}]' \
 }
 tag @s remove this_challenger
 

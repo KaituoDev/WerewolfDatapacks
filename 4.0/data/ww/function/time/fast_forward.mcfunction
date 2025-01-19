@@ -26,12 +26,12 @@ scoreboard players operation %timeSkip ww.var /= %divider ww.var
 scoreboard players operation %remainingTime ww.var = %maxTime ww.var
 scoreboard players operation %remainingTime ww.var -= %time ww.system
 execute if score %remainingTime ww.var matches ..200 run return run \
-  function ww:chat/_dm {type: 'warn', message: '剩餘時間不足以快進'}
+  function ww:chat/_dm {type: 'warn', message: '剩余时间不足以快进'}
 
 execute if score %remainingTime ww.var < %timeSkip ww.var run \
   scoreboard players operation %timeSkip ww.var = %remainingTime ww.var
 
-#execute if score %timeSkip ww.var matches ..100 run return run function ww:chat/_dm {type: 'warn', message: '剩餘時間不足以快進'}
+#execute if score %timeSkip ww.var matches ..100 run return run function ww:chat/_dm {type: 'warn', message: '剩余时间不足以快进'}
 scoreboard players operation %time ww.var = %time ww.system
 scoreboard players operation %time ww.var += %timeSkip ww.var
 execute if score %time ww.var > %maxTime ww.var run scoreboard players operation %time ww.var = %maxTime ww.var

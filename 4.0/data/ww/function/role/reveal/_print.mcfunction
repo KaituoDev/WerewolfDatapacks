@@ -8,7 +8,7 @@ execute if score %length ww.var matches 0 run data modify storage ww:output role
 
 data modify storage ww:temp playerKills set value '{"text":""}'
 execute if score @s ww.kills matches 1.. run \
-  data modify storage ww:temp playerKills set value '[{"text":"\\n> 擊殺數: "},{"score":{"name":"@s","objective":"ww.kills"},"color":"gold","bold":true},"\\n"]'
+  data modify storage ww:temp playerKills set value '[{"text":"\\n> 击杀数: "},{"score":{"name":"@s","objective":"ww.kills"},"color":"gold","bold":true},"\\n"]'
 
 $tellraw @p[tag=this] [ \
   {"text":"$(player)"}, \

@@ -1,6 +1,6 @@
 # context: @s = player
 
-execute if score @s ww.suitCD matches 1.. run return run function ww:chat/_dm {type: 'warn', message: '技能還在冷卻'}
+execute if score @s ww.suitCD matches 1.. run return run function ww:chat/_dm {type: 'warn', message: '技能还在冷却'}
 
 scoreboard players set @s ww.suitCD 200
 execute if entity @s[tag=ww.fool] run scoreboard players set @s ww.suitCD 400
@@ -35,4 +35,4 @@ item replace entity @s armor.feet with netherite_boots[unbreakable={show_in_tool
 clear @s *[custom_data~{killer_weapon: true}]
 clear @s *[custom_data~{killer_weapon: false}]
 give @s[tag=bads] netherite_axe[item_name='{"bold":true,"color":"red","italic":false,"text":"狼人的獠牙"}',unbreakable={show_in_tooltip:false},custom_data={killer_weapon: true}] 1
-give @s[tag=!bads] netherite_axe[item_name='{"bold":true,"color":"red","italic":false,"text":"狼人的門牙"}',unbreakable={show_in_tooltip:false},custom_data={killer_weapon: false}] 1
+give @s[tag=!bads] netherite_axe[item_name='{"bold":true,"color":"red","italic":false,"text":"狼人的门牙"}',unbreakable={show_in_tooltip:false},custom_data={killer_weapon: false}] 1

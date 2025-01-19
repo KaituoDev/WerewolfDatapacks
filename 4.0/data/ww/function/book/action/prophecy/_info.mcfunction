@@ -3,7 +3,7 @@
 
 $function ww:chat/_dm {type:'rich_info', message: '[ \
   {"text":"$(player)","color":"white"}, \
-  {"text":" 隸屬於 ", "color":"white", "bold": false}, \
+  {"text":" 隶属于 ", "color":"white", "bold": false}, \
   {"text":"$(campaign)", "color": "$(color)", "bold": true} \
 ]'}
 

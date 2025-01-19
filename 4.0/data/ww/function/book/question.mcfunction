@@ -4,7 +4,7 @@
 clear @s written_book[minecraft:custom_data={"ww.book":"ww.skill.question"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"提問"}', \
+  title: '{"bold":true,"color":"aqua","text":"提问"}', \
   id: 'ww.skill.question' \
 }
 

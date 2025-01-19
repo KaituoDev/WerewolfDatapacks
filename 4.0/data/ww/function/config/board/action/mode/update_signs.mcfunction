@@ -3,8 +3,8 @@
 # inputs {origin}
 
 # conquer mode
-data modify storage ww:temp text set value '{"text":"屠邊模式","color":"aqua","bold":true}'
-execute if function ww:game/mode/is_conquer run data modify storage ww:temp text set value '{"text":"屠邊模式","color":"yellow","bold":true}'
+data modify storage ww:temp text set value '{"text":"屠边模式","color":"aqua","bold":true}'
+execute if function ww:game/mode/is_conquer run data modify storage ww:temp text set value '{"text":"屠边模式","color":"yellow","bold":true}'
 
 data merge block ^-1 ^1 ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
@@ -23,8 +23,8 @@ data merge block ^1 ^1 ^1 { \
 }
 
 # lunatic mode
-data modify storage ww:temp text set value '{"text":"瘋人院模式","color":"aqua","bold":true}'
-execute if function ww:game/mode/is_lunatic run data modify storage ww:temp text set value '{"text":"瘋人院模式","color":"yellow","bold":true}'
+data modify storage ww:temp text set value '{"text":"疯人院模式","color":"aqua","bold":true}'
+execute if function ww:game/mode/is_lunatic run data modify storage ww:temp text set value '{"text":"疯人院模式","color":"yellow","bold":true}'
 
 data merge block ^ ^1 ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
@@ -33,8 +33,8 @@ data merge block ^ ^1 ^1 { \
 }
 
 # teaming mode
-# data modify storage ww:temp text set value '{"text":"組隊模式","color":"aqua","bold":true}'
-# execute if function ww:game/mode/is_teaming run data modify storage ww:temp text set value '{"text":"組隊模式","color":"yellow","bold":true}'
+# data modify storage ww:temp text set value '{"text":"组队模式","color":"aqua","bold":true}'
+# execute if function ww:game/mode/is_teaming run data modify storage ww:temp text set value '{"text":"组队模式","color":"yellow","bold":true}'
 
 # data merge block ^ ^1 ^1 { \
 #   front_text:{has_glowing_text:0b, messages: ['""', \

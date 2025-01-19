@@ -2,7 +2,7 @@
 # inputs: {origin, pos, name: config name}
 
 # 1. get the current config value by name
-$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'設定 $(name) 不存在'}
+$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'设定 $(name) 不存在'}
 
 scoreboard players set %temp ww.var 1
 $execute store result score %toggle ww.var run data get storage ww:memory config.'$(name)'

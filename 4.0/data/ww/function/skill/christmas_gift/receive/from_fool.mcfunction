@@ -3,7 +3,7 @@
 
 function ww:chat/_dm { \
  type: 'lmao', \
- message: '你得到了禮物，但你犯蠢把禮物送走了', \
+ message: '你得到了礼物，但你犯蠢把礼物送走了', \
 }
 
 # narrator

@@ -5,7 +5,7 @@ execute if score %aliveNPC ww.system matches 0 run return fail
 # prints a list of AI names, click to teleport
 scoreboard players enable @s ww.navigateToAI
 
-tellraw @s [{"text":"\n傳送至 AI 位置:","color":"gold","bold": true}]
+tellraw @s [{"text":"\n传送至 AI 位置:","color":"gold","bold": true}]
 
 data modify storage ww:temp joinStringInput set value {delimiter: ','}
 data modify storage ww:temp joinStringInput.strings set value []

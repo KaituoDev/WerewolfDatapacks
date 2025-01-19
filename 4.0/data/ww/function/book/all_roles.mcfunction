@@ -3,7 +3,7 @@
 clear @s written_book[minecraft:custom_data={"ww.book":"ww.intro.all.roles"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"全職業介紹"}', \
+  title: '{"bold":true,"color":"aqua","text":"全职业介绍"}', \
   id: 'ww.intro.all.roles' \
 }
 

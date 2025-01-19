@@ -1,7 +1,7 @@
 # context: @s = player | villager
 
 execute as @a run function ww:chat/_dm {type: 'rich_info', \
-  message: '[{"text":"忍者發動了 ","color":"white","bold":false},{"text":"蟻遁","color":"green","bold":true}]' \
+  message: '[{"text":"忍者发动了 ","color":"white","bold":false},{"text":"蚁遁","color":"green","bold":true}]' \
 }
 
 scoreboard players add @s ww.ninjaTransform 200

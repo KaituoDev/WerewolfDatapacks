@@ -8,4 +8,4 @@ tag @s remove this
 execute as @e[tag=ww.mount,distance=..100] at @s run function ww:skill/za_warudo/init
 execute as @e[tag=ww.killer_ai,type=zombified_piglin,distance=..100] at @s run function ww:skill/za_warudo/init
 
-function ww:chat/_dm {type: 'info', message: '你發動了時間暫停'}
+function ww:chat/_dm {type: 'info', message: '你发动了时间暂停'}

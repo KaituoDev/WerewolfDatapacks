@@ -6,5 +6,5 @@ function ww:player/role/get_state
 function ww:book/action/rigged_vote/_format {path: 'riggedVoteRecords'}
 
 function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"text":"你將在結算時把 ","color":"white","bold":false},{"nbt":"formatString","storage":"ww:output","color":"green"},{"text":" 票數互換","color":"white"}]' \
+  '[{"text":"你将在结算时把 ","color":"white","bold":false},{"nbt":"formatString","storage":"ww:output","color":"green"},{"text":" 票数互换","color":"white"}]' \
 }

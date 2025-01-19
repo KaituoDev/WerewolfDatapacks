@@ -15,7 +15,7 @@ $execute if score %index ww.var matches 2 run return run function ww:game/elimin
 
 # everyone lives
 execute if score %index ww.var matches 1 as @a run \
-  function ww:chat/_dm {type: 'rich_info',message:'[{"text":"發生平票, 全員安全度過這天","color":"white"}]'}
+  function ww:chat/_dm {type: 'rich_info',message:'[{"text":"发生平票, 全员安全度过这天","color":"white"}]'}
 
 # default 0, randomly pick one player, returns 1 if masochist ending
 $execute if score %index ww.var matches 0 as @e[predicate=ww:alive,scores={ww.vote_summary=$(count)},limit=1,sort=random] run \

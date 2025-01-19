@@ -3,7 +3,7 @@
 
 clear @s *[minecraft:custom_data~{shovel:true}]
 
-$function ww:chat/_dm {type: 'rich_info', message: '[ {"text":"你挖起了 ","color":"white","bold":false},{"text":"$(player)","color":"green","bold":true},{"text":" 的墓碑, 繼承了 ","color":"white","bold":false},{"text":"$(role)","color":"$(color)","bold":true}]'}
+$function ww:chat/_dm {type: 'rich_info', message: '[ {"text":"你挖起了 ","color":"white","bold":false},{"text":"$(player)","color":"green","bold":true},{"text":" 的墓碑, 继承了 ","color":"white","bold":false},{"text":"$(role)","color":"$(color)","bold":true}]'}
 
 # get player role state
 function ww:player/role/get_state

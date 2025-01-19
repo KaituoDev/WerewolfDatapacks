@@ -1,7 +1,7 @@
 # context: @s = player, @p[tag=this] = player reading
 # output: ww:output roleJourneyFormatted
 
-#data modify storage ww:temp roleJourney set value [{name: '狼人',from: ''},{name:'盜賊', from:'someone'},{name:'獵人',from:'else'}]
+#data modify storage ww:temp roleJourney set value [{name: '狼人',from: ''},{name:'盗贼', from:'someone'},{name:'猎人',from:'else'}]
 
 data modify storage ww:temp roleJourney set value []
 data modify storage ww:output roleJourneyFormatted set value []

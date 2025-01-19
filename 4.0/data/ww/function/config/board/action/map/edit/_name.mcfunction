@@ -2,7 +2,7 @@
 # inputs: {index, name}
 
 $data modify storage ww:memory config.MAPS[$(index)].name set value '$(name)'
-$function ww:chat/_dm {type: 'info', message: '已將地圖名改為: $(name)'}
+$function ww:chat/_dm {type: 'info', message: '已将地图名改为: $(name)'}
 
 # update signs if applicable
 function ww:player/_get_state {name: 'playerConfigBoard'}

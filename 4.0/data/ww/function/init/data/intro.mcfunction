@@ -12,19 +12,19 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "explosion"} ] \
   }, \
   "snow_wolf": { \
-    notes: ["被預言書查中會顯示人類陣營"], \
+    notes: ["被预言书查中会显示人类阵营"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "glow_up"} ] \
   }, \
   "hijack_wolf": { \
-    notes: ["使預言書玩家名變難以閱讀", "所有玩家強制穿皮革裝與玩家頭顱", "直到場上沒有百變狼"], \
+    notes: ["使预言书玩家名变难以阅读", "所有玩家强制穿皮革装与玩家头颅", "直到场上没有百变狼"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "hijack"} ] \
   }, \
   "alpha_wolf": { \
-    notes: ["目標是殺光所有非原初狼的玩家", "同夥名單會額外顯示原初狼名單"], \
+    notes: ["目标是杀光所有非原初狼的玩家", "同伙名单会额外显示原初狼名单"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"} ] \
   }, \
   "rage_wolf": { \
-    notes: ["殺的玩家越多速度越快"], \
+    notes: ["杀的玩家越多速度越快"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"} ] \
   }, \
   "bomb_wolf": { \
@@ -32,11 +32,11 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "implant_bomb"} ] \
   }, \
   "bloody_wolf": { \
-    notes: ["殺完玩家後自動獲得血月技能"], \
+    notes: ["杀完玩家后自动获得血月技能"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "blood_moon"} ] \
   }, \  
   "seer_wolf": { \
-    notes: ["查驗名單不共享"], \
+    notes: ["查验名单不共享"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "prophecy"} ] \
   }, \
   "charm_wolf": { \
@@ -44,11 +44,11 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "charm"} ] \
   }, \
   "cupid": { \
-    notes: ["選擇戀人組合", "當場上只剩下戀人時就算戀人勝利","邱比特活著的話也算勝利", "戀人任一方死去", "另一人也會陪葬"], \
+    notes: ["选择恋人组合", "当场上只剩下恋人时就算恋人胜利","邱比特活着的话也算胜利", "恋人任一方死去", "另一人也会陪葬"], \
     skills: [ {id: 'pairing_book'} ] \
   }, \
   "seer": { \
-    notes: ["預言家查驗名單不共享"], \
+    notes: ["预言家查验名单不共享"], \
     skills: [ {id: 'prophecy'}, {id: 'switch'} ] \
   }, \
   "witch": { \
@@ -60,15 +60,15 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'rifle'} ] \
   }, \
   "ninja": { \
-    notes: ["隱形時速度提升"], \
+    notes: ["隐形时速度提升"], \
     skills: [ {id: 'ninja_scroll'}, {id: 'ninjutsu_activate'} ] \
   }, \
   "trickster": { \
-    notes: ["武器不會殺死人"], \
+    notes: ["武器不会杀死人"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"} ] \
   }, \
   "masochist": { \
-    notes: ["白天成為票數最多者立即獲勝"], \
+    notes: ["白天成为票数最多者立即获胜"], \
     skills: [] \
   }, \
   "sadist": { \
@@ -80,7 +80,7 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'sing'} ] \
   }, \
   "digger": { \
-    notes: ["玩家死時會產生墳墓", "只有掘墓者能看得到墳墓"], \
+    notes: ["玩家死时会产生坟墓", "只有掘墓者能看得到坟墓"], \
     skills: [ {id: 'shovel'} ] \
   }, \
   "knight": { \
@@ -92,11 +92,11 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'guard'} ] \
   }, \
   "detective": { \
-    notes: ["玩家死後會留下線索", "只有偵探能看到線索","僅限被他殺的玩家"], \
+    notes: ["玩家死后会留下线索", "只有侦探能看到线索","仅限被他杀的玩家"], \
     skills: [ {id: 'forensic'} ] \
   }, \
   "hentai": { \
-    notes: ["晚上可以騷擾玩家","當場上色狼以外的活玩家","都被騷擾(打)過後","色狼即勝","所有色狼共享名單"], \
+    notes: ["晚上可以骚扰玩家","当场上色狼以外的活玩家","都被骚扰(打)过后","色狼即胜","所有色狼共享名单"], \
     skills: [ {id: 'arousal'}, {id: 'harass_list'} ] \
   }, \
   "thief": { \
@@ -108,15 +108,15 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'imprisonment'} ] \
   }, \
   "sensei": { \
-    notes: ["資訊不共享"], \
+    notes: ["资讯不共享"], \
     skills: [ {id: 'question'} ] \
   }, \
   "madman": { \
-    notes: ["當狼人陣營全滅時，自動轉為狼人陣營"], \
+    notes: ["当狼人阵营全灭时，自动转为狼人阵营"], \
     skills: [] \
   }, \
   "santa": { \
-    notes: ["臨別禮物：被殺死的時候，使該殺手緩速與黑暗10秒","臨別美送：聖誕老人被票死時，當晚全體緩速"], \
+    notes: ["临别礼物：被杀死的时候，使该杀手缓速与黑暗10秒","临别美送：圣诞老人被票死时，当晚全体缓速"], \
     skills: [ {id: 'send_gift'} ] \
   }, \
   "villager": { \
@@ -124,27 +124,27 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [] \
   }, \
   "wraith": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到"], \
     skills: [ {id: 'invisible_on'} ] \
   }, \
   "voodoo": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到"], \
     skills: [ {id: 'invisible_on'}, {id: 'voodoo_needle'} ] \
   }, \
   "bewitcher": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到","", "被預言家查到時", "使其中蠱惑狀態", "再也無法獲得預言書"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到","", "被预言家查到时", "使其中蛊惑状态", "再也无法获得预言书"], \
     skills: [ {id: 'invisible_on'} ] \
   }, \
   "rigger": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到"], \
     skills: [ {id: 'invisible_on'}, {id: 'rigged_vote'} ] \
   }, \
   "phrenapates": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到"], \
     skills: [ {id: 'invisible_on'}, {id: 'lure'} ] \
   }, \
   "krampus": { \
-    notes: ["狼人陣營被滅時自動獲勝", "晚上永久無敵", "持續到人類陣營被滅","或被預言家查驗到"], \
+    notes: ["狼人阵营被灭时自动获胜", "晚上永久无敌", "持续到人类阵营被灭","或被预言家查验到"], \
     skills: [ {id: 'invisible_on'}, {id: 'steal_gift'} ] \
   } \
 }

@@ -12,7 +12,7 @@ execute if function ww:player/flag/is_immune run return 0
 function ww:player/death/_message {message: \
   '[ \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
-    {"text":" 被狼人殺了","color":"white","bold":false} \
+    {"text":" 被狼人杀了","color":"white","bold":false} \
   ]' \
 }
 

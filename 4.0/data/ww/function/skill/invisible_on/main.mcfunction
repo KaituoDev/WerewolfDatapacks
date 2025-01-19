@@ -4,4 +4,4 @@ execute if score @s ww.invisItemCD matches 1.. run return run scoreboard players
 
 # countdown complete
 scoreboard players reset @s ww.invisItemCD
-function ww:chat/_dm {type: 'info', message: '隱形冷卻完畢'}
+function ww:chat/_dm {type: 'info', message: '隐形冷却完毕'}

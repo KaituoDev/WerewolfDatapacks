@@ -4,12 +4,12 @@ clear @s *[minecraft:custom_data~{blood_moon:true}]
 
 execute if entity @s[tag=ww.fool] run function ww:player/death/blood_moon
 execute if entity @s[tag=ww.fool] as @a run function ww:chat/_dm { type: 'rich_lmao', \
-  message: '[{"text":"是的, 血月發動失敗了","color":"white","bold":false}]' \
+  message: '[{"text":"是的, 血月发动失败了","color":"white","bold":false}]' \
 }
 execute if entity @s[tag=ww.fool] run return 0
 
 execute as @a run function ww:chat/_dm { type: 'rich_warn', \
-  message: '[{"text":"血月降臨","color":"red","bold":true},{"text":", 全體狼人獲得大幅度速度提升","color":"white","bold":false}]' \
+  message: '[{"text":"血月降临","color":"red","bold":true},{"text":", 全体狼人获得大幅度速度提升","color":"white","bold":false}]' \
 }
 
 scoreboard players set %isBloodMoon ww.system 1

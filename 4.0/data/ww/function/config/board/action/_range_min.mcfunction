@@ -2,7 +2,7 @@
 # inputs: {origin, pos, name: config name, min: number}
 
 # 1. check if the config value exists
-$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'設定 $(name) 不存在'}
+$execute unless data storage ww:memory config.'$(name)' run return run function ww:chat/_dm {type:'error',message:'设定 $(name) 不存在'}
 
 # 2. increment/decrement
 $execute store result score %count ww.var run data get storage ww:memory config.'$(name)'

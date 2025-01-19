@@ -9,7 +9,7 @@ function ww:player/tag/sanitize
 function ww:player/death/_message {message: \
   '[ \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
-    {"text":" 受蠱毒而死","color":"white","bold":false} \
+    {"text":" 受蛊毒而死","color":"white","bold":false} \
   ]' \
 }
 

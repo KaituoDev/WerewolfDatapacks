@@ -1,7 +1,7 @@
 # context: @s = player | villager
 
 execute as @a run function ww:chat/_dm {type: 'rich_info', \
-  message: '[{"text":"忍者發動了 ","color":"white","bold":false},{"text":"霧遁","color":"green","bold":true}]' \
+  message: '[{"text":"忍者发动了 ","color":"white","bold":false},{"text":"雾遁","color":"green","bold":true}]' \
 }
 # summons markers with tag ww.ninjaSmokePoint
 # and attach score ww.dummyTimer of 200

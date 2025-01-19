@@ -4,7 +4,7 @@
 clear @s written_book[minecraft:custom_data~{"ww.book":"ww.skill.elimination"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"gold","text":"投票書"}', \
+  title: '{"bold":true,"color":"gold","text":"投票书"}', \
   id: 'ww.skill.elimination' \
 }
 

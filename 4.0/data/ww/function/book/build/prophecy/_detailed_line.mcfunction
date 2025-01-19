@@ -6,7 +6,7 @@
 $data modify storage ww:temp createBookInput.rows append value '[ \
   {"text":"$(name) ","color":"$(color)","bold":true,"clickEvent":{"action":"run_command","value":"$(func)"}, \
   "hoverEvent":{"action":"show_text","value":[ \
-    {"text": "上次查到隸屬於 ", "color": "white", "bold": false}, \
+    {"text": "上次查到隶属于 ", "color": "white", "bold": false}, \
     {"text": "$(campaign)", "color": "$(color)", "bold": true} \
   ]}}, \
   "\\n\\n" \

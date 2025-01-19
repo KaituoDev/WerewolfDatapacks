@@ -1,7 +1,7 @@
 # context: server
 
-team add ww.officers "警長"
-team modify ww.officers prefix [{"text":"[","color":"white","bold":true},{"text":"警長","color":"yellow"},{"text":"] ","color":"white"}]
+team add ww.officers "警长"
+team modify ww.officers prefix [{"text":"[","color":"white","bold":true},{"text":"警长","color":"yellow"},{"text":"] ","color":"white"}]
 team modify ww.officers nametagVisibility never
 team modify ww.officers collisionRule never
 team modify ww.officers seeFriendlyInvisibles false

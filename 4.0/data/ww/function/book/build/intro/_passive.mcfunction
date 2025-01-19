@@ -4,7 +4,7 @@
 # inputs: {notes, skills, name, campaign, campaignColor}
 
 $data modify storage ww:temp createBookInput.rows append value '[ \
-  {"text":"被動 ","color":"blue", "bold":true, \
+  {"text":"被动 ","color":"blue", "bold":true, \
   "hoverEvent":{"action":"show_text","value":$(notes)}}, \
   "\\n\\n" \
 ]'

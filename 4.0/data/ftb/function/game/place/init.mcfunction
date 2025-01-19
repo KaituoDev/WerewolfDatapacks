@@ -16,4 +16,4 @@ bossbar set ftb:game_status color white
 tag @a remove ftb.placement.denied
 tag @a remove ftb.button.placed
 
-title @a title {"text":"藏按鈕時間!!","color":"yellow"}
+title @a title {"text":"藏按钮时间!!","color":"yellow"}

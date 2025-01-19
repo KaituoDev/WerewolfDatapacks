@@ -12,30 +12,30 @@ execute if score @s ww.pairingGroup matches 1.. run function ww:player/actionbar
 
 # suit cooldown
 function ww:player/actionbar/_format_score \
-  {objective: 'suitCD', title: '裝備冷卻', titleColor: 'aqua', valueColor: 'yellow', scale: 0.05}
+  {objective: 'suitCD', title: '装备冷却', titleColor: 'aqua', valueColor: 'yellow', scale: 0.05}
 
 # invisible_on item cooldown
 function ww:player/actionbar/_format_score \
-  {objective: 'invisItemCD', title: '隱形冷卻', titleColor: 'aqua', valueColor: 'yellow', scale: 0.05}
+  {objective: 'invisItemCD', title: '隐形冷却', titleColor: 'aqua', valueColor: 'yellow', scale: 0.05}
 
 # bomb countdown
 function ww:player/actionbar/_format_score \
-  {objective: 'bomb', title: '爆炸倒數', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+  {objective: 'bomb', title: '爆炸倒数', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
 # immune countdown
 function ww:player/actionbar/_format_score \
-  {objective: 'immune', title: '無敵', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+  {objective: 'immune', title: '无敌', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 execute unless score @s ww.immune matches 1.. if function ww:player/flag/is_immune run \
   data modify storage ww:temp actionbarInput.immune.text set value \
-    '[{"text":" 無敵 ","color":"red","bold":true},{"text":"永久","color":"yellow"}]'
+    '[{"text":" 无敌 ","color":"red","bold":true},{"text":"永久","color":"yellow"}]'
 
 # invis countdown
 function ww:player/actionbar/_format_score \
-  {objective: 'forceInvis', title: '隱形', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+  {objective: 'forceInvis', title: '隐形', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
 # morphing countdown
 function ww:player/actionbar/_format_score \
-  {objective: 'morphing', title: '化貓', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+  {objective: 'morphing', title: '化猫', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
 # ninjaTree countdown
 function ww:player/actionbar/_format_score \
@@ -43,11 +43,11 @@ function ww:player/actionbar/_format_score \
 
 # ninjaSmoke countdown
 # function ww:player/actionbar/_format_score \
-#   {objective: 'ninjaSmoke', title: '霧遁', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+#   {objective: 'ninjaSmoke', title: '雾遁', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
 # ninjaTransform countdown
 function ww:player/actionbar/_format_score \
-  {objective: 'ninjaTransform', title: '蟻遁', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+  {objective: 'ninjaTransform', title: '蚁遁', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
 # sing countdown
 function ww:player/actionbar/_format_score \
@@ -68,7 +68,7 @@ execute if score %curses ww.var matches 1.. store result storage ww:temp actionb
   scoreboard players get %curses ww.var
 execute if score %curses ww.var matches 1.. run \
   data modify storage ww:temp actionbarInput.curseStacks.text set value \ 
-    '[{"text":" 詛咒 ","color":"red","bold":true},{"nbt":"actionbarInput.curseStacks.value","storage":"ww:temp","color":"yellow"},{"text":" 層","color":"red","bold":false}]'
+    '[{"text":" 诅咒 ","color":"red","bold":true},{"nbt":"actionbarInput.curseStacks.value","storage":"ww:temp","color":"yellow"},{"text":" 层","color":"red","bold":false}]'
 
 $title @s actionbar [ \
   {"text":"[ "}, \

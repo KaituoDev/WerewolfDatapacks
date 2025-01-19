@@ -14,16 +14,16 @@ execute store result score %count ftb.var run data get storage ftb:temp display
 
 execute if score %count ftb.var matches 1 run title @s actionbar [ \
   {"storage":"ftb:temp","nbt":"display[0].name","interpret":true,"bold":true}, \
-  {"text":" 距離 ","color":"dark_aqua","bold":true}, \
+  {"text":" 距离 ","color":"dark_aqua","bold":true}, \
   {"storage":"ftb:temp","nbt":"display[0].distance","color":"green","bold":true} \
 ]
 
 execute if score %count ftb.var matches 2.. run title @s actionbar [ \
   {"storage":"ftb:temp","nbt":"display[0].name","interpret":true,"bold":true}, \
-  {"text":" 距離 ","color":"dark_aqua","bold":true}, \
+  {"text":" 距离 ","color":"dark_aqua","bold":true}, \
   {"storage":"ftb:temp","nbt":"display[0].distance","color":"green","bold":true}, \
   "  ", \
   {"storage":"ftb:temp","nbt":"display[1].name","interpret":true,"bold":true}, \
-  {"text":" 距離 ","color":"dark_aqua","bold":true}, \
+  {"text":" 距离 ","color":"dark_aqua","bold":true}, \
   {"storage":"ftb:temp","nbt":"display[1].distance","color":"green","bold":true} \
 ]

@@ -25,7 +25,7 @@ function ww:game/bar/carousel/reset
 function ww:game/intermittent_reset
 
 title @a subtitle [{"text":"第 ","color":"white"},{"score":{"name":"%days","objective":"ww.system"},"color":"green","bold":true},{"text":" 天","color":"white","bold":false}]
-title @a title "太陽已升起"
+title @a title "太阳已升起"
 tellraw @a {"text":"\n\n********************", "color":"blue","bold":true}
 tellraw @a [{"text":"第 ","color":"white"},{"score":{"name":"%days","objective":"ww.system"},"color":"green","bold":true},{"text":" 天白天","color":"white","bold":false}]
 

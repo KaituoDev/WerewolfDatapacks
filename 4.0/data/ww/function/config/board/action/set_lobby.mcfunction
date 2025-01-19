@@ -30,4 +30,4 @@ data modify storage ww:memory config.LOBBY set from storage ww:temp setLobbyInpu
 setworldspawn
 forceload add ~ ~
 
-tellraw @s [{"text":"遊戲大廳已設為 "},{"nbt":"config.LOBBY.location","storage":"ww:memory","color":"green","bold":true}]
+tellraw @s [{"text":"游戏大厅已设为 "},{"nbt":"config.LOBBY.location","storage":"ww:memory","color":"green","bold":true}]

@@ -21,6 +21,6 @@ execute if predicate ww:sneaking run return run function ww:config/board/sign/in
 tellraw @s [\
   {"text":"蹲下","color":"gold","bold":true}, \
   {"text":"+","color":"white","bold":false}, \
-  {"text":"右鍵","color":"gold","bold":true}, \
-  {"text":" 來設置完整面板","color":"white","bold":false} \
+  {"text":"右键","color":"gold","bold":true}, \
+  {"text":" 来设置完整面板","color":"white","bold":false} \
 ]

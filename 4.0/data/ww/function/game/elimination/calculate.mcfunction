@@ -13,7 +13,7 @@ execute unless score %maxVoteCount ww.system matches 1.. run return run function
 
 # create a list of top voted candidates for game bar carousel
 function ww:game/elimination/calculate/_construct_list with storage ww:temp topCandidatesListInput
-# data modify storage ww:temp joinStringInput set value {delimiter: ' ', strings: [' 票數最高者:']}
+# data modify storage ww:temp joinStringInput set value {delimiter: ' ', strings: [' 票数最高者:']}
 # data modify storage ww:temp joinStringInput.strings append from storage ww:output topCandidatesList
 # function ww:utils/_join_string with storage ww:temp joinStringInput
 data modify storage ww:memory GameBarTexts.top_vote_label set value '| 票最多: '

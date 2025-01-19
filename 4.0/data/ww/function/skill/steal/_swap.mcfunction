@@ -97,5 +97,5 @@ function ww:player/role/_add_journey with storage ww:temp selfRoleJourneyItem
 $execute as @n[nbt={UUID: $(uuid)}] run function ww:player/role/_add_journey with storage ww:temp otherRoleJourneyItem
 
 # broadcast
-$execute if entity @s[type=player] run function ww:chat/_dm {type: 'rich_info', message: '[{"text":"你與","color":"white"},{"selector":"@n[nbt={UUID: $(uuid)}]"},{"text":"互換職業","bold":true}]'}
-$execute as @n[nbt={UUID: $(uuid)},type=player] run function ww:chat/_dm {type: 'rich_info', message: '[{"text":"你被","color":"white"},{"text":"盜賊偷走職業","bold":true}]'}
+$execute if entity @s[type=player] run function ww:chat/_dm {type: 'rich_info', message: '[{"text":"你与","color":"white"},{"selector":"@n[nbt={UUID: $(uuid)}]"},{"text":"互换职业","bold":true}]'}
+$execute as @n[nbt={UUID: $(uuid)},type=player] run function ww:chat/_dm {type: 'rich_info', message: '[{"text":"你被","color":"white"},{"text":"盗贼偷走职业","bold":true}]'}

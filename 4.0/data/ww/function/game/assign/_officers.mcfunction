@@ -7,5 +7,5 @@ team join ww.officers @e[tag=ww.officer]
 
 # broadcast
 execute as @a run function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"selector":"@e[tag=ww.officer]","color":"green","bold":true},{"text":" 已被選為警長","color":"white","bold":false}]' \
+  '[{"selector":"@e[tag=ww.officer]","color":"green","bold":true},{"text":" 已被选为警长","color":"white","bold":false}]' \
 }

@@ -2,7 +2,7 @@
 # inputs: {id}
 
 $function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"text":"你獲得了隨機技能 - ","color":"white","bold":false},{"nbt":"SKILLS_INTRO.$(id).name","storage":"ww:memory","color":"gold","bold":true}]' \
+  '[{"text":"你获得了随机技能 - ","color":"white","bold":false},{"nbt":"SKILLS_INTRO.$(id).name","storage":"ww:memory","color":"gold","bold":true}]' \
 }
 
 $execute if data storage ww:memory GACHA_SKILLS_NOTES.$(id) run \

@@ -4,4 +4,4 @@ execute if score @s ww.suitCD matches 1.. run return run scoreboard players remo
 
 # countdown complete
 scoreboard players reset @s ww.suitCD
-function ww:chat/_dm {type: 'info', message: '裝備冷卻完畢'}
+function ww:chat/_dm {type: 'info', message: '装备冷却完毕'}

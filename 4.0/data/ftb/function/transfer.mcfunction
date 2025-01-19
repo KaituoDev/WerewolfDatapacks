@@ -7,7 +7,7 @@ data modify storage ftb:temp setRoleInput.id set from entity @n[tag=ftb.marker] 
 
 tag @s add this
 execute as @p[tag=ftb.this_finder] run function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"text":"你成為了 ","color":"white","bold":false},{"nbt":"CustomName","entity":"@n[tag=this]","interpret":true,"bold":true}]' \
+  '[{"text":"你成为了 ","color":"white","bold":false},{"nbt":"CustomName","entity":"@n[tag=this]","interpret":true,"bold":true}]' \
 }
 tag @s remove this
 

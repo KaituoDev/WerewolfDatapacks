@@ -6,6 +6,6 @@ execute as @e[predicate=ww:alive,sort=random] at @s run function ww:skill/switch
 execute as @e[predicate=ww:alive,sort=random] at @s run function ww:skill/switch_all/teleport
 
 execute as @a run \
-  function ww:chat/_dm {type: 'info', message: '全體互換位置'}
+  function ww:chat/_dm {type: 'info', message: '全体互换位置'}
 
 kill @e[type=marker,tag=ww.switchAllOrigin]

@@ -17,5 +17,5 @@ function ww:skill/christmas_gift/item
 
 function ww:chat/_dm { \
   type: 'info', \
-  message: '你收到了一份聖誕禮物，右鍵即可打開' \
+  message: '你收到了一份圣诞礼物，右键即可打开' \
 }

@@ -4,7 +4,7 @@
 clear @s written_book[minecraft:custom_data~{"ww.book":"ww.skill.rigged_vote"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"偷天換日"}', \
+  title: '{"bold":true,"color":"aqua","text":"偷天换日"}', \
   id: 'ww.skill.rigged_vote' \
 }
 

@@ -8,9 +8,9 @@ tag @e[tag=masochistWinner] remove masochistWinner
 $execute as @a run function ww:chat/_dm {type: 'rich_death', message: \
   '[ \
     {"selector":"@e[predicate=ww:alive,scores={ww.vote_summary=$(count)}]","color":"red","bold":true}, \
-    {"text":" 獲得最高票數 ","color":"white","bold":false}, \
+    {"text":" 获得最高票数 ","color":"white","bold":false}, \
     {"score":{"name":"%maxVoteCount","objective":"ww.system"},"color":"green","bold":true}, \
-    {"text":" 被眾人處刑了","color":"white","bold":false} \
+    {"text":" 被众人处刑了","color":"white","bold":false} \
   ]' \
 }
 

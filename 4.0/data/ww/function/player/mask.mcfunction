@@ -17,4 +17,4 @@ item replace entity @s armor.feet with leather_boots[unbreakable={show_in_toolti
   {id:"armor_toughness",type:"armor_toughness",amount:0,operation:"add_multiplied_base",slot:"feet"} \
 ],show_in_tooltip:false},trim={material:"minecraft:gold",pattern:"minecraft:shaper",show_in_tooltip:false}] 1
 
-function ww:chat/_dm {type: 'info', message: '場上有百變狼, 你獲得百變幻象狀態'}
+function ww:chat/_dm {type: 'info', message: '场上有百变狼, 你获得百变幻象状态'}

@@ -12,6 +12,6 @@ tag @s add ftb.button.placed
 clear @s
 
 playsound minecraft:entity.experience_orb.pickup
-function ww:chat/_dm {type: 'info', message: '成功放置按鈕！'}
+function ww:chat/_dm {type: 'info', message: '成功放置按钮！'}
 
 return 1

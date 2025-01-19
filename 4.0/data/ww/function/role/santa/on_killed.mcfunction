@@ -2,7 +2,7 @@
 
 execute on attacker run function ww:chat/_dm { \
   type: 'warn', \
-  message: '你殺了聖誕老人，你將會受到懲罰！' \
+  message: '你杀了圣诞老人，你将会受到惩罚！' \
 }
 
 execute if entity @s[tag=ww.fool] run return run execute on attacker run \

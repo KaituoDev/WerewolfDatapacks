@@ -29,5 +29,5 @@ execute store result score %buttonsLeft ftb.system if entity @e[tag=ftb.interact
 
 execute as @a run attribute @s entity_interaction_range base set 5
 
-title @a title {"text":"找按鈕時間!!","color":"yellow"}
-title @a subtitle {"text":"按鈕都有對應的職業","color":"red"}
+title @a title {"text":"找按钮时间!!","color":"yellow"}
+title @a subtitle {"text":"按钮都有对应的职业","color":"red"}

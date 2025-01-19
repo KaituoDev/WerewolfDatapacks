@@ -11,5 +11,5 @@ $scoreboard players operation @n[nbt={UUID:$(player2)}] ww.vote_summary = %temp 
 
 # broadcast
 $execute as @a run function ww:chat/_dm {type: 'rich_info', message: \
-  '[{"selector":"@n[nbt={UUID:$(player1)}]","color":"green","bold":true},{"text":" 和 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player2)}]","color":"green","bold":true},{"text":" 的票數被交換了","color":"white","bold":false}]' \ 
+  '[{"selector":"@n[nbt={UUID:$(player1)}]","color":"green","bold":true},{"text":" 和 ","color":"white","bold":false},{"selector":"@n[nbt={UUID:$(player2)}]","color":"green","bold":true},{"text":" 的票数被交换了","color":"white","bold":false}]' \ 
 }

@@ -9,7 +9,7 @@ function ww:player/tag/sanitize
 function ww:player/death/_message {message: \
   '[ \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
-    {"text":" 被查驗到升天了","color":"white","bold":false} \
+    {"text":" 被查验到升天了","color":"white","bold":false} \
   ]' \
 }
 

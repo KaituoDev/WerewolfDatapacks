@@ -10,7 +10,7 @@ $data modify storage ww:memory config.MAPS prepend value \
   { \
     id: 'map-$(count)', \
     count: $(count), \
-    name: '地點$(count)', \
+    name: '地点$(count)', \
     modified: false, \
     location: '~ ~ ~', \
     rotation: '0 0' \

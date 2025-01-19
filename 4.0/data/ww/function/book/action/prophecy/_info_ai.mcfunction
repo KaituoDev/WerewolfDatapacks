@@ -3,7 +3,7 @@
 
 $execute as @a[predicate=!ww:narrator] run function ww:chat/_dm {type:'rich_info', message: '[ \
   {"text":"某村民查到 $(player)","color":"white"}, \
-  {"text":" 隸屬於 ", "color":"white", "bold": false}, \
+  {"text":" 隶属于 ", "color":"white", "bold": false}, \
   {"text":"$(campaign)", "color": "$(color)", "bold": true} \
 ]'}
 

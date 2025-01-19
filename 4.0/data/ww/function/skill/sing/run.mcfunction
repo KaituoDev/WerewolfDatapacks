@@ -7,5 +7,5 @@ scoreboard players add @s ww.forceInvis 100
 scoreboard players add @s ww.immune 100
 
 execute as @a run function ww:chat/_dm {type: 'info', \
-  message: '有人魚在唱歌' \
+  message: '有人鱼在唱歌' \
 }

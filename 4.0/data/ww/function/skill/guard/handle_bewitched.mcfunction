@@ -5,4 +5,4 @@ execute if entity @n[tag=this,tag=ww.fool] run return run function ww:queue/_add
 
 # not fool
 function ww:player/role/_remove_state {path: 'bewitched'}
-function ww:chat/_dm {type: 'info', message: '你的蠱毒被清除了'}
+function ww:chat/_dm {type: 'info', message: '你的蛊毒被清除了'}

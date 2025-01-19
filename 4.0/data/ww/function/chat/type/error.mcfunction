@@ -1,4 +1,4 @@
 # context: @s = player
 # storage: ww:temp message
 
-tellraw @s [{"text":"[錯誤] ", "color": "red", "bold": true},{"storage":"ww:temp","nbt":"message","color":"white","bold":false}]
+tellraw @s [{"text":"[错误] ", "color": "red", "bold": true},{"storage":"ww:temp","nbt":"message","color":"white","bold":false}]

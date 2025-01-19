@@ -3,7 +3,7 @@
 clear @s written_book[minecraft:custom_data={"ww.book":"ww.skill.send_gift"}]
 
 function ww:book/build/utils/_init { \
-  title: '{"bold":true,"color":"aqua","text":"發送禮物"}', \
+  title: '{"bold":true,"color":"aqua","text":"发送礼物"}', \
   id: 'ww.skill.send_gift' \
 }
 

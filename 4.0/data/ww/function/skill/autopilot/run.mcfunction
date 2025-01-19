@@ -9,7 +9,7 @@ attribute @s scale base set 0.1
 ride @s dismount
 
 clear @s *[custom_data~{autopilot:true}]
-function ww:chat/_dm {type: 'info', message: '按蹲下即可下車'}
+function ww:chat/_dm {type: 'info', message: '按蹲下即可下车'}
 
 tag @s add this
 execute summon wolf run function ww:skill/autopilot/mount/setup

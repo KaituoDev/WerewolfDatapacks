@@ -33,7 +33,7 @@ execute unless data storage ww:memory config.RANDOM_MAP run data modify storage 
 data modify storage ww:memory config.MAX_ALLOWED_MAP_INDEX set value 17
 
 # total of 13 maps:
-# ["雪町","美術館","水晶風暴","河堤社區","經典城鎮","渡假村","Underground","威尼斯小鎮","花村","酷米溫泉旅館","卡歐魯の村莊","卡歐魯の混亂豪宅","卡歐魯の都市"]
+# ["雪町","美术馆","水晶风暴","河堤社区","经典城镇","渡假村","Underground","威尼斯小镇","花村","酷米温泉旅馆","卡欧鲁の村庄","卡欧鲁の混乱豪宅","卡欧鲁の都市"]
 execute if predicate ww:is_our_map run data modify storage ww:memory config.MAX_ALLOWED_MAP_INDEX set value 11
 
 # lobby configs

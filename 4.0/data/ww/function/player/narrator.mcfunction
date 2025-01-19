@@ -9,9 +9,9 @@ execute if data storage ww:output playerState store result score %narratorSucces
 
 # previously not a narrator -> become one
 execute if score %narratorSuccess ww.var matches 0 run function ww:player/_set_state {name: 'playerNarrator', value: 1}
-execute if score %narratorSuccess ww.var matches 0 run function ww:chat/_dm {type:'info',message:'你成為旁白了, 遊戲開始後不會參與遊戲'}
+execute if score %narratorSuccess ww.var matches 0 run function ww:chat/_dm {type:'info',message:'你成为旁白了, 游戏开始后不会参与游戏'}
 
 execute if score %narratorSuccess ww.var matches 1 run function ww:player/_set_state {name: 'playerNarrator', value: 0}
-execute if score %narratorSuccess ww.var matches 1 run function ww:chat/_dm {type:'info',message:'你成為一般玩家了'}
+execute if score %narratorSuccess ww.var matches 1 run function ww:chat/_dm {type:'info',message:'你成为一般玩家了'}
 
 function ww:player/tag/sanitize

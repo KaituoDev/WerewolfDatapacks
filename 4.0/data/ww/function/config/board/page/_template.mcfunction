@@ -41,7 +41,7 @@ $execute at @e[nbt={UUID:$(origin)}] run data merge block ^ ^ ^1 { \
 }
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^ ^-1 ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
-  '{"text":"主畫面","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/_home\\", args: {}}"}}', \
+  '{"text":"主画面","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/_home\\", args: {}}"}}', \
   '""','""'], color:"white"} \
 }
 

@@ -7,16 +7,16 @@ data remove storage ww:output playerRole
 $data modify storage ww:output playerRole set from storage ww:memory playerRole.'$(uuid)'
 
 $execute if entity @s[tag=ww.fool] if entity @n[nbt={UUID:$(uuid)},tag=bads] run \
-  data modify storage ww:output playerRole.campaign set value {id: 'goods', color: '#50d300', name: '人類陣營'}
+  data modify storage ww:output playerRole.campaign set value {id: 'goods', color: '#50d300', name: '人类阵营'}
 
 $execute if entity @s[tag=ww.fool] if entity @n[nbt={UUID:$(uuid)},tag=goods] run \
-  data modify storage ww:output playerRole.campaign set value {id: 'spirits', color: 'dark_red', name: '怨靈陣營'}
+  data modify storage ww:output playerRole.campaign set value {id: 'spirits', color: 'dark_red', name: '怨灵阵营'}
 
 $execute if entity @s[tag=ww.fool] if entity @n[nbt={UUID:$(uuid)},tag=spirits] run \
-  data modify storage ww:output playerRole.campaign set value {id: 'bads', color: 'red', name: '狼人陣營'}
+  data modify storage ww:output playerRole.campaign set value {id: 'bads', color: 'red', name: '狼人阵营'}
 
 $execute if entity @n[nbt={UUID:$(uuid)},tag=snow_wolf] run \
-  data modify storage ww:output playerRole.campaign set value {id: 'goods', color: '#50d300', name: '人類陣營'}
+  data modify storage ww:output playerRole.campaign set value {id: 'goods', color: '#50d300', name: '人类阵营'}
 
 $execute if entity @n[nbt={UUID:$(uuid)},tag=bewitcher] run \
   function ww:player/role/_set_state {path: 'bewitched', value: 1}
@@ -29,7 +29,7 @@ $scoreboard players add @n[nbt={UUID:$(uuid)},tag=spirits] ww.spirits.exorcised 
 
 $execute if score @n[nbt={UUID:$(uuid)}] ww.spirits.exorcised matches 2.. as @a run function ww:chat/_dm { \
   type: 'rich_info', \
-  message: '[{"selector":"@n[nbt={UUID:$(uuid)}]","color":"red","bold":true},{"text":" 又被查驗了，表示心很累x","color":"white","bold":false},{"score":{"name":"@n[nbt={UUID:$(uuid)}]","objective":"ww.spirits.exorcised"},"color":"green","bold":true}]' \
+  message: '[{"selector":"@n[nbt={UUID:$(uuid)}]","color":"red","bold":true},{"text":" 又被查验了，表示心很累x","color":"white","bold":false},{"score":{"name":"@n[nbt={UUID:$(uuid)}]","objective":"ww.spirits.exorcised"},"color":"green","bold":true}]' \
 }
 
 return run execute if data storage ww:output playerRole

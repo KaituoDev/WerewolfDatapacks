@@ -7,7 +7,7 @@ scoreboard players set %invalidVotes ww.system 0
 # remove all masochist votes
 execute as @e[predicate=ww:alive,tag=masochist] run function ww:role/masochist/finalize
 execute if score %invalidVotes ww.system matches 1.. as @a run function ww:chat/_dm {type: 'rich_warn', message: \
- '[{"text":"本次投票出現","color":"white","bold":false},{"score":{"name":"%invalidVotes","objective":"ww.system"},"color":"yellow","bold":true},{"text":"張無效票","color":"white","bold":false}]' \
+ '[{"text":"本次投票出现","color":"white","bold":false},{"score":{"name":"%invalidVotes","objective":"ww.system"},"color":"yellow","bold":true},{"text":"张无效票","color":"white","bold":false}]' \
 }
 
 # recalculate

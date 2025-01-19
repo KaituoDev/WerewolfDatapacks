@@ -11,7 +11,7 @@ function ww:player/tag/sanitize
 function ww:player/death/_message {message: \
   '[ \
     {"selector":"@n[tag=this]","color":"red","bold":true}, \
-    {"text":" 被聖劍制裁了","color":"gold","bold":false} \
+    {"text":" 被圣剑制裁了","color":"gold","bold":false} \
   ]' \
 }
 

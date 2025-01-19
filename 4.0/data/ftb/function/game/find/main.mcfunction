@@ -6,7 +6,7 @@ scoreboard players remove %time ftb.system 1
 execute store result storage ftb:temp secondsLeft int 0.05 run scoreboard players get %time ftb.system
 execute store result bossbar ftb:game_status value run scoreboard players get %time ftb.system
 bossbar set ftb:game_status name [ \
-  {"text":"找按鈕倒數 ","color":"yellow","bold":true}, \
+  {"text":"找按钮倒数 ","color":"yellow","bold":true}, \
   {"nbt":"secondsLeft","storage":"ftb:temp","color":"gold","bold":true} \
 ]
 

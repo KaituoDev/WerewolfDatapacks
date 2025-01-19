@@ -41,7 +41,7 @@ scoreboard objectives add ww.question trigger
 scoreboard objectives add ww.questionCampaign trigger
 scoreboard objectives add ww.send_gift trigger
 
-scoreboard objectives add ww.vote_summary dummy {"text":"獲票數","color":"gold","bold":true}
+scoreboard objectives add ww.vote_summary dummy {"text":"获票数","color":"gold","bold":true}
 scoreboard objectives add ww.bomb dummy
 scoreboard objectives add ww.immune dummy
 scoreboard objectives add ww.morphing dummy
@@ -54,7 +54,7 @@ scoreboard objectives add ww.za_warudo dummy
 scoreboard objectives add ww.charm dummy
 
 scoreboard objectives add ww.kills dummy
-scoreboard objectives add ww.wins dummy {"text":"獲勝次數","color":"gold","bold":true}
+scoreboard objectives add ww.wins dummy {"text":"获胜次数","color":"gold","bold":true}
 scoreboard objectives add ww.isSleeping minecraft.custom:minecraft.sleep_in_bed
 
 scoreboard objectives add ww.narrator trigger
@@ -76,8 +76,8 @@ scoreboard objectives add ww.ai.masochist_search_used dummy
 scoreboard objectives add ww.ai.sing_used dummy
 
 bossbar add ww:game_status ""
-bossbar add ww:ai_counter {"text":"產生AI中...","color":"green","bold":true}
-bossbar add ww:assignment {"text":"分配職業中...","color":"green","bold":true}
+bossbar add ww:ai_counter {"text":"产生AI中...","color":"green","bold":true}
+bossbar add ww:assignment {"text":"分配职业中...","color":"green","bold":true}
 
 data modify storage ww:memory constants set value { \
   "EXECUTION_TICKS": 5, \
@@ -101,4 +101,4 @@ function ww:queue/main
 schedule clear ww:queue/main_1s
 function ww:queue/main_1s
 
-tellraw @a [{"text":"狼人殺.AI 載入完畢"},{"text":" [v4.0]","color":"green","bold":true}]
+tellraw @a [{"text":"狼人杀.AI 载入完毕"},{"text":" [v4.0]","color":"green","bold":true}]

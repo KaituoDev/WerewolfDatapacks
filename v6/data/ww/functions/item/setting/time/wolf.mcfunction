@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變辯論式狼人討論時間","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,time:1b,wolf:1b} 1

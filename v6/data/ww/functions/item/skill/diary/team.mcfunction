@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"組員查詢紀錄","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"查看先前對玩家組別的查驗結果","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,diary_team:1b} 1

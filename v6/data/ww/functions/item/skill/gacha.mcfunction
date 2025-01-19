@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"轉蛋","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"轉1次消耗1枚代幣, 可累積10枚轉10連抽","color":"white","italic":false}','{"text":"10連抽可保底一個素材","color":"white","italic":false}']},Unbreakable:1b,skill:1b,gacha:1b} 1

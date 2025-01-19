@@ -1,0 +1,2 @@
+clear @s wooden_sword{vote:1b,morning:1b}
+give @s wooden_sword{Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:1}],display:{Name:'{"text":"暴民劍","color":"gold","bold":true,"italic":false}'},vote:1b,morning:1b,unique:1b}

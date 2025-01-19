@@ -1,0 +1,1 @@
+tellraw @a [{"storage":"ww:game","nbt":"DISPLAY.warn","interpret":true},{"text":"","bold":false},{"text":"最後一任警長已去世， 警徽已流失","color":"red"}]

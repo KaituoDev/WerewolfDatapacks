@@ -1,0 +1,1 @@
+execute unless score @s localId matches 1.. store result score @s localId run scoreboard players add %current localId 1

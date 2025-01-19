@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "nbt": "{setting:1b,night:1b,time:1b}"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"現形","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"解除隱形","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,ghost_off:1b} 1

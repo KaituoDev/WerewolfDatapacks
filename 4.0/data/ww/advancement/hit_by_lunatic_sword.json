@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {"lunatic_sword": true}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ww:skill/lunatic_sword/on_hit"
+  },
+  "sends_telemetry_event": false
+}

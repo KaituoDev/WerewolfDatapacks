@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": {"function": "ww:skill/forensic/run", "forensic": true, "ww.skill": true}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+return run data get storage ww:memory config.MODE.CONQUER

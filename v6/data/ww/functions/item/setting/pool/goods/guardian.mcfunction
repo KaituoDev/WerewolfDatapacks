@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變守衛數量","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,pool:1b,guardian:1b} 1

@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"捕捉","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"複製並儲存看向的玩家頭顱, 使用<冒充身分>戴上","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,capture:1b} 1

@@ -1,0 +1,1 @@
+execute as @a[tag=alive] run function ww:player/looking_at/destination

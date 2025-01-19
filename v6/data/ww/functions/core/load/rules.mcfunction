@@ -1,0 +1,16 @@
+# Game Rules
+gamerule keepInventory true
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule doMobSpawning false
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamerule mobGriefing false
+gamerule naturalRegeneration true
+gamerule doImmediateRespawn true
+gamerule disableRaids true
+gamerule doInsomnia false
+gamerule fallDamage false
+gamerule fireDamage false
+gamerule drowningDamage false
+gamerule announceAdvancements false

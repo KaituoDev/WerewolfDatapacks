@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"獵槍","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"看向一名玩家並使用技能","color":"white","italic":false}','{"text":"使其在你死後跟你一起陪葬","color":"white","italic":false}','{"text":"可朝其他玩家開槍改變目標","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,rifle:1b}

@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "invisible"
+    },
+    "range": {
+      "min": 1
+    }
+  }
+]

@@ -1,0 +1,3 @@
+execute if score %death_reason system matches 0 run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/death_reason"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"顯示死因"}',Text3:'{"text":""}',Text4:'{"text":""}'}
+
+execute if score %death_reason system matches 1 run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/death_reason"},"text":""}',Text2:'{"bold":false,"color":"black","text":"顯示死因"}',Text3:'{"text":""}',Text4:'{"text":""}'}

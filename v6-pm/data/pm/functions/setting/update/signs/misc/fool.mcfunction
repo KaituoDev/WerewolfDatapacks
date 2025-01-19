@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/pool/fool"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"蠢蛋數量"}',Text3:'{"text":""}',Text4:'{"text":""}'}
+
+execute if score %fool pool matches 1.. run data modify block ~ ~ ~ Text3 set value '[{"score":{"name":"%fool","objective":"pool"},"color":"green","bold":true},{"text":" 人","color":"white","bold":false}]'

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombified_piglin",
+            "nbt": "{Tags:[ww.killer_ai]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ww:player/death/ai_autopilot"
+  }
+}

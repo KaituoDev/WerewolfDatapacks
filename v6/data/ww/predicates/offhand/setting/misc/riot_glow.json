@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "nbt": "{setting:1b,misc:1b,riot_glow:1b}"
+        }
+      }
+    }
+  }
+]

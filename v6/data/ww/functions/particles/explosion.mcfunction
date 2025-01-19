@@ -1,0 +1,1 @@
+particle minecraft:explosion ~ ~ ~ 7 7 7 1 500 force

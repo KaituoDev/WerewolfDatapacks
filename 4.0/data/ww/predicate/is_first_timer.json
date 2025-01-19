@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "ww.firstTimer"
+    },
+    "range": 1
+  }
+}

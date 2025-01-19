@@ -1,0 +1,1 @@
+tellraw @s [{"storage":"ww:game","nbt":"DISPLAY.error","interpret":true},{"text":"","bold":false},{"text":"沒有符合條件的玩家"}]

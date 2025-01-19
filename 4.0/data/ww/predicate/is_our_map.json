@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "ww:memory",
+    "path": "config.IS_OUR_MAP"
+  },
+  "range": {
+    "min": 1,
+    "max": 1
+  }
+}

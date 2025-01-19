@@ -1,0 +1,2 @@
+execute if predicate ww:mode/riot if predicate ww:morning if score @s duel matches 1.. run function ww:item/skill/duel
+execute if predicate ww:mode/debate if predicate ww:night if score @s duel matches 1.. run function ww:book/duel

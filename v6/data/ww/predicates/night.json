@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "%morning"
+    },
+    "score": "system"
+  },
+  "range": 0
+}

@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變蠱惑師數量","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,pool:1b,bewitcher:1b} 1

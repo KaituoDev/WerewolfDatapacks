@@ -1,0 +1,2 @@
+execute if predicate ww:mode/debate if predicate ww:morning run function ww:book/white_wolf
+execute if score %day system matches 2.. if predicate ww:mode/riot if predicate ww:morning run function ww:item/skill/bomb

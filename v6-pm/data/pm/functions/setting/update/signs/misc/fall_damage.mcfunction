@@ -1,0 +1,3 @@
+execute if score %fall_damage system matches 0 run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/fall_damage"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"暴民式墜死"}',Text3:'{"text":""}',Text4:'{"text":""}'}
+
+execute if score %fall_damage system matches 1 run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/fall_damage"},"text":""}',Text2:'{"bold":false,"color":"black","text":"暴民式墜死"}',Text3:'{"text":""}',Text4:'{"text":""}'}

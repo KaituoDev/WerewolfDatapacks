@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"忍法 - 五道","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"使用後獲得隨機一種效果:","color":"white","italic":false}','{"text":"全體發光, 全體加速, 全體隱形, 全體緩速, 全體互換位置","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,ninja_random:1b} 1

@@ -1,0 +1,1 @@
+execute as @a[predicate=ww:alive] run function ww:player/bar/update/display

@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": {"function": "ww:skill/shovel/run", "shovel": true, "ww.skill": true}
+        }
+      }
+    }
+  }
+}

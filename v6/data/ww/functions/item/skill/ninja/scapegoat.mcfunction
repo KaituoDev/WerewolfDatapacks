@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"忍法 - 代罪","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"與距離最遠的玩家互換位置","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,ninja_scapegoat:1b}

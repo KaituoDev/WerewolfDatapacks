@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"勇氣","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"獲取一次性擊退棒, 並無敵5秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,bravery:1b} 1

@@ -1,0 +1,3 @@
+give @s[tag=!apprentice] warped_fungus_on_a_stick{display:{Name:'{"text":"無敵護盾","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"自身無敵10秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,immune_self:1b} 1
+
+give @s[tag=apprentice] warped_fungus_on_a_stick{display:{Name:'{"text":"見習無敵護盾","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"自身無敵5秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,immune_self:1b} 1

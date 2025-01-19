@@ -1,0 +1,1 @@
+give @s bone{display:{Name:'{"text":"詛咒骨針","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"需處於非隱形狀態, 打一名玩家使其疊加1層詛咒","color":"white","italic":false}','{"text":"3層詛咒可使其死亡","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,curse:1b} 1

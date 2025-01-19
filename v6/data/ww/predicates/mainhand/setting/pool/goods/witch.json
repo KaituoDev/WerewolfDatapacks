@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{setting:1b,witch:1b,pool:1b}"
+        }
+      }
+    }
+  }
+]

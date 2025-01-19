@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"唱歌","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"魅惑10格內的所有活玩家","color":"white","italic":false}','{"text":"使其受到大幅度緩速並看向自已","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,sing:1b} 1

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[ww.mount]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ww:player/death/autopilot"
+  }
+}

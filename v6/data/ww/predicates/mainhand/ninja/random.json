@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{skill:1b,ninja_random:1b}"
+        }
+      }
+    }
+  }
+]

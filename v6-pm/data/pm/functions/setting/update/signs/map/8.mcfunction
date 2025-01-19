@@ -1,0 +1,3 @@
+execute unless score %map system matches 8 run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/map/8/choose"},"text":""}',Text2:'{"bold":false,"color":"aqua","storage":"ww:game","nbt":"mapNames[7]","interpret":false}',Text3:'{"text":""}',Text4:'{"text":""}'}
+
+execute if score %map system matches 8 run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/map/8/choose"},"text":""}',Text2:'{"bold":false,"color":"black","storage":"ww:game","nbt":"mapNames[7]","interpret":false}',Text3:'{"text":""}',Text4:'{"text":""}'}

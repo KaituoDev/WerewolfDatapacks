@@ -1,0 +1,3 @@
+give @s[tag=wolf] writable_book{radio:1b,skill:1b,display:{Name:'[{"text":"無線電","color":"gold","bold":true,"italic":false}]',Lore:['{"text":"打在第一頁的文字會傳到同一陣營的對話框","color":"white","bold":false,"italic":false}']}}
+
+give @s[tag=!wolf] writable_book{display:{Name:'{"text":"模仿無線電","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"無法傳訊息","color":"white","bold":false,"italic":false}']},skill:1b}

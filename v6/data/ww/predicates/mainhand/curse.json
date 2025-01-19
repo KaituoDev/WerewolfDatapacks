@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:bone"
+        ],
+        "nbt": "{curse:1b}"
+      }
+    }
+  }
+}

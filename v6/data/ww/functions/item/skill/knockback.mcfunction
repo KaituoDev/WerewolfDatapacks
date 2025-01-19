@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"擊退棒","color":"white","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:knockback",lvl:100s}],skill:1b,knockback:1b} 1

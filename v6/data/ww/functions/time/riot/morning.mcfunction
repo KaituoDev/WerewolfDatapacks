@@ -1,0 +1,1 @@
+execute as @a run function ww:reset/tags/riot

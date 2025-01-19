@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "skill": {
+        "min": 1
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{skill:1b,tp_self:1b}"
+        }
+      }
+    }
+  }
+]

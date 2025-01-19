@@ -1,0 +1,1 @@
+execute if entity @s[tag=wolf] run function ww:skill/radio/send/wolf

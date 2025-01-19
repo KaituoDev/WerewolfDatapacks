@@ -1,0 +1,1 @@
+tp @e[tag=ghost,limit=1] -413 30 356

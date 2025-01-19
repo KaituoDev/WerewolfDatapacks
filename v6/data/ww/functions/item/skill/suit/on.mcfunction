@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"著裝","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"自動穿裝, 裝備包含盔甲, 無線電, 好人追蹤器","color":"white","italic":false}','{"text":"同時獲得隱形效果, 速度提升, 跳躍提升","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,suit_on:1b} 1

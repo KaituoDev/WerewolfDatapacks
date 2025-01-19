@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/pool/goods/hunter"},"text":""}',Text2:'{"bold":true,"color":"green","text":"[ 獵人 ]"}',Text3:'{"text":""}',Text4:'{"text":""}'}

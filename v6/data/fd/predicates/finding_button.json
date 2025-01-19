@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "%PHASE"
+    },
+    "score": "var"
+  },
+  "range": {
+    "min": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "%PHASE_1"
+      },
+      "score": "constant"
+    },
+    "max": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "%PHASE_2"
+      },
+      "score": "constant"
+    }
+  }
+}

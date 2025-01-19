@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{setting:1b,map:1b,choose:1b,1:1b}"
+        }
+      }
+    }
+  }
+]

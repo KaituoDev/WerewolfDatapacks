@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"無敵領域","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"給予周圍8格內的所有玩家","color":"white","italic":false}','{"text":"無敵與隱形5秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,immune_field:1b} 1

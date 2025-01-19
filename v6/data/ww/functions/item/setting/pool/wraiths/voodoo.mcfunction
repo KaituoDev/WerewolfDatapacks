@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變巫毒女孩數量","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,pool:1b,voodoo:1b} 1

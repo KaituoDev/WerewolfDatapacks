@@ -1,0 +1,1 @@
+scoreboard objectives remove TP_PAD_CD

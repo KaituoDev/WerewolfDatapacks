@@ -18,3 +18,6 @@ execute as @e[predicate=ww:player] run function ww:player/_set_state {name: 'pla
 # rest of game inits are in this function
 # start > init > assign > session
 schedule function ww:game/begin/assign 1t
+
+# place signal block to notify WerewolfUtils plugin that the game has started
+setblock 13 56 99 redstone_block

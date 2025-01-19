@@ -27,4 +27,7 @@ function ww:game/teleport_lobby
 
 function ww:game/show_wins
 
+# place signal block to notify WerewolfUtils plugin that the game has ended
+setblock 15 56 99 redstone_block
+
 return 1

@@ -1,1 +1,0 @@
-effect give @a invisibility 10 0 true

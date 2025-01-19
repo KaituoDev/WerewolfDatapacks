@@ -1,1 +1,0 @@
-function ww:game/main

@@ -1,3 +1,0 @@
-execute if score %show_wins system matches 0 run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/show_wins"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"顯示勝利次數"}',Text3:'{"text":""}',Text4:'{"text":""}'}
-
-execute if score %show_wins system matches 1 run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/show_wins"},"text":""}',Text2:'{"bold":false,"color":"black","text":"顯示勝利次數"}',Text3:'{"text":""}',Text4:'{"text":""}'}

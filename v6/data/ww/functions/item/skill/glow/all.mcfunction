@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'[{"text":"全體發光","color":"light_purple","bold":true,"italic":false}]'},skill:1b,glow_all:1b} 1

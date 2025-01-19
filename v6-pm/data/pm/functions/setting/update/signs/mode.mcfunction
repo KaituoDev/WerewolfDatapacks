@@ -1,1 +1,0 @@
-data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"tp @s -20 70 39 90 0"},"text":""}',Text2:'{"bold":true,"color":"light_purple","text":"設定模式"}',Text3:'{"text":""}',Text4:'{"text":""}'}

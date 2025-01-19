@@ -1,1 +1,0 @@
-tellraw @a [{"storage":"ww:game","nbt":"DISPLAY.info","interpret":true},{"text":"","bold":false},{"text":"無人投票， 沒人被處決","color":"white","bold":true}]

@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"決鬥","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"向一名玩家發起決鬥, 是狼人就殺他, 不是狼人就是自殺","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,duel:1b} 1

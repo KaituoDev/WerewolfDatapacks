@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"冒充身分","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"將頭顱變換成<捕捉>到的玩家","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,hijack_on:1b} 1

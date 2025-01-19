@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"召集同伴","color":"light_purple","bold":true,"italic":false}'},Unbreakable:1b,skill:1b,tp_self:1b} 1

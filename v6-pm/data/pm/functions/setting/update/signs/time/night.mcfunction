@@ -1,1 +1,0 @@
-data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/time/night"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"夜晚持續時間"}',Text3:'{"text":""}',Text4:'{"text":""}'}

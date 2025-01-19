@@ -1,1 +1,0 @@
-execute unless score @s id matches 1.. store result score @s id run scoreboard players add %current id 1

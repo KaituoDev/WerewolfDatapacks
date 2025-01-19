@@ -1,1 +1,0 @@
-execute store result score %bads pool run scoreboard players set %wolf pool 1

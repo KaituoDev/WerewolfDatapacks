@@ -1,2 +1,0 @@
-execute if predicate ww:night if predicate ww:mode/riot run function ww:item/skill/bravery
-execute unless score @s escape matches 1.. if predicate ww:night if predicate ww:mode/debate run function ww:book/villager

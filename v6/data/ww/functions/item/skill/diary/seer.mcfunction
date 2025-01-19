@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"預言家日記","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"查看所有預言家查驗的結果","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,diary_seer:1b} 1

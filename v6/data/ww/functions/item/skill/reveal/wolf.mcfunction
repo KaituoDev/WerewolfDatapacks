@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"檢視同伴","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"查看狼人夥伴名 (也包含詐欺師)","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,reveal_wolf:1b} 1

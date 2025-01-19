@@ -1,3 +1,0 @@
-give @s[tag=bads] compass{display:{Name:'{"text":"好人追蹤器","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"追蹤最近的好人陣營玩家","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,tracker_goods:1b} 1
-
-give @s[tag=!bads] compass{display:{Name:'{"text":"模仿好人追蹤器","color":"light_purple","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:aqua_affinity",lvl:0}],skill:1b}

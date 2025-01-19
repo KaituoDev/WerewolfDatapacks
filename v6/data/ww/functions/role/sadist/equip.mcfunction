@@ -1,1 +1,0 @@
-execute if predicate ww:night run function ww:book/sadist

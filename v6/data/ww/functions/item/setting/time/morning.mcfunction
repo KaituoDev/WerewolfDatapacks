@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變白天持續時間","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,time:1b,morning:1b} 1

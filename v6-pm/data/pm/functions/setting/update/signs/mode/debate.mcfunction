@@ -1,3 +1,0 @@
-execute if score %gacha_mode system matches 0 unless predicate ww:mode/debate run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/mode/debate"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"辯論式"}',Text3:'{"text":""}',Text4:'{"text":""}'}
-
-execute if score %gacha_mode system matches 0 if predicate ww:mode/debate run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/mode/debate"},"text":""}',Text2:'{"bold":false,"color":"black","text":"辯論式"}',Text3:'{"text":""}',Text4:'{"text":""}'}

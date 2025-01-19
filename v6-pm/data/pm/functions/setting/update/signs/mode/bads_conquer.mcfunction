@@ -1,3 +1,0 @@
-execute if score %bads_conquer system matches 0 run data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/mode/bads_conquer"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"屠邊式結局"}',Text3:'{"text":""}',Text4:'{"text":""}'}
-
-execute if score %bads_conquer system matches 1 run data merge block ~ ~ ~ {Color:"black",GlowingText:1b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/mode/bads_conquer"},"text":""}',Text2:'{"bold":false,"color":"black","text":"屠邊式結局"}',Text3:'{"text":""}',Text4:'{"text":""}'}

@@ -1,1 +1,0 @@
-data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/map/random"},"text":""}',Text2:'{"bold":true,"color":"yellow","text":"隨機地圖"}',Text3:'{"text":""}',Text4:'{"text":""}'}

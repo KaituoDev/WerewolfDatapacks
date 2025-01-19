@@ -1,3 +1,0 @@
-give @s[tag=!fool] warped_fungus_on_a_stick{display:{Name:'{"text":"毒藥","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"看向一名玩家並使用技能","color":"white","italic":false}','{"text":"可使該玩家立即死亡(受無敵影響)","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,vote:1b,potion_death:1b,witch:1b} 1
-
-give @s[tag=fool] warped_fungus_on_a_stick{display:{Name:'{"text":"解藥","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"看向一名玩家並使用技能","color":"white","italic":false}','{"text":"可使該玩家無敵10秒與解除其身上的詛咒","color":"white","italic":false}','{"text":"(無法施放在自己身上)","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,vote:1b,potion_heal:1b,witch:1b} 1

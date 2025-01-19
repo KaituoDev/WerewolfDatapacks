@@ -1,1 +1,0 @@
-execute store result score %goods pool run scoreboard players set %villager pool 1

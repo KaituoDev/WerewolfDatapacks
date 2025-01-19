@@ -1,3 +1,0 @@
-data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/misc/riot_glow"},"text":""}',Text2:'{"bold":false,"color":"aqua","text":"暴民式發光"}',Text3:'{"text":""}',Text4:'{"text":""}'}
-
-execute if score %riot_glow system matches 1.. run data modify block ~ ~ ~ Text3 set value '[{"score":{"name":"%riot_glow","objective":"system"},"color":"green","bold":true},{"text":" 人","color":"white","bold":false}]'

@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"脫裝","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"自動脫裝","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,suit_off:1b} 1

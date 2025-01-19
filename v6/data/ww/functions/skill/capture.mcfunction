@@ -1,1 +1,0 @@
-function ww:player/looking_at/casting

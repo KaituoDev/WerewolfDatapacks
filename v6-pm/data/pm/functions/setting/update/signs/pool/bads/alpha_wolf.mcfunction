@@ -1,1 +1,0 @@
-data merge block ~ ~ ~ {Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"function ww:setting/pool/bads/alpha_wolf"},"text":""}',Text2:'{"bold":true,"color":"red","text":"[ 原初狼 ]"}',Text3:'{"text":""}',Text4:'{"text":""}'}

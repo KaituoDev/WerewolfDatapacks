@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"改變獵人數量","color":"aqua","bold":true,"italic":false}'},Unbreakable:1b,setting:1b,pool:1b,hunter:1b} 1

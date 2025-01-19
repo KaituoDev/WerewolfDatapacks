@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{display:{Name:'{"text":"閃光彈","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"使附近10格內自己以外的所有玩家","color":"white","italic":false}','{"text":"眼盲與緩速10秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,flashbang:1b} 1

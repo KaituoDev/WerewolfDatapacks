@@ -11,7 +11,7 @@ scoreboard players set @a[tag=perm_invis] invisible 10
 effect give @a[tag=perm_invis,tag=fool] glowing 1 0 true
 
 # Armed Effects
-scoreboard players set @a[predicate=ww:armed] invisible 6
+scoreboard players set @a[predicate=ww:armed] invisible 3
 effect give @a[predicate=ww:armed,tag=!fool] speed 5 1 true
 effect give @a[predicate=ww:armed] jump_boost 5 1 true
 effect give @a[predicate=ww:armed,tag=fool] slowness 5 1 true

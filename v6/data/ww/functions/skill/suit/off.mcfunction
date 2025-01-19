@@ -7,7 +7,8 @@ item replace entity @s armor.feet with air
 
 tellraw @s [{"storage":"ww:game","nbt":"DISPLAY.info","interpret":true},{"text":"","bold":false},{"text":"已脫裝"}]
 
-# clear @s netherite_axe
+clear @s netherite_axe{skill:1b}
+schedule function ww:item/skill/axe 3s
 clear @s warped_fungus_on_a_stick{suit_off:1b}
 clear @s writable_book
 clear @s written_book{radio:1b}

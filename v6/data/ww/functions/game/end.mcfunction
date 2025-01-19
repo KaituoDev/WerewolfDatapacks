@@ -3,6 +3,7 @@ effect clear @a
 kill @e[type=item]
 team leave @a
 gamerule fallDamage false
+setblock -34 56 89 redstone_block
 
 function fd:button/end
 

@@ -30,5 +30,7 @@ execute as @a run function ww:game/teleport
 
 team join player @a
 
+setblock -32 56 89 redstone_block
+
 execute if score %find_buttons system matches 1 run function fd:button/init
 execute unless score %find_buttons system matches 1 run function ww:game/init/role_assign

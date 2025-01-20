@@ -26,7 +26,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "explosion": { \
     name: "自爆弹", \
-    descriptions: ["炸死自己在内10格的一名不同阵营的玩家", "跳过投票直接进入夜晚"], \
+    descriptions: ["炸死自己在内10格的一名不同阵营的玩家", "跳过投票直接进入夜晚", "第一天白天禁用"], \
     fool: ["只有炸到自己", "其他人继续投票"] \
   }, \
   "glow_up": { \
@@ -113,7 +113,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "challenge": { \
     name: "决斗", \
-    descriptions: ["瞄准玩家按下右键","若该玩家并非同阵营➡杀掉","若同阵营➡自杀"], \
+    descriptions: ["瞄准玩家按下右键","若该玩家并非同阵营➡杀掉","若同阵营➡自杀","第一天白天禁用"], \
     fool: ["同阵营➡杀掉", "非同阵营➡自杀"] \
   }, \
   "guard": { \

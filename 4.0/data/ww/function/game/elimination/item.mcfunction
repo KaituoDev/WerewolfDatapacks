@@ -24,4 +24,4 @@ execute if score %index ww.var matches 3 run \
   function ww:queue/_add {task: 'book/elimination'}
 
 clear @s *[minecraft:custom_data~{elimination_regret:true}]
-give @s warped_fungus_on_a_stick[item_model="barrier",item_name='[{"text":"警","color":"#FFC0CB","bold":true,"obfuscated":true},{"bold":true,"color":"red","obfuscated":false,"text":"反悔"},{"text":"告","color":"#FFC0CB","obfuscated":true}]',unbreakable={},rarity="epic",custom_data={function: "ww:game/elimination/regret", elimination_regret: true}] 1
+give @s warped_fungus_on_a_stick[custom_model_data=23303,item_name='[{"text":"警","color":"#FFC0CB","bold":true,"obfuscated":true},{"bold":true,"color":"red","obfuscated":false,"text":"反悔"},{"text":"告","color":"#FFC0CB","obfuscated":true}]',unbreakable={},rarity="epic",custom_data={function: "ww:game/elimination/regret", elimination_regret: true}] 1

@@ -1,3 +1,3 @@
 # context: @s = player
 
-function ww:skill/_item_with_model {id: 'christmas_gift', model: 'chest_minecart', stack_size: 1}
+function ww:skill/_item_with_custom_model_data {id: 'christmas_gift', custom_model_data: 23309}

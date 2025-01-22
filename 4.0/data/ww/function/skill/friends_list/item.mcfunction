@@ -5,4 +5,4 @@ execute if function ww:game/mode/is_lunatic run return run function ww:chat/_dm 
   message: '疯人院模式下无法使用好友名单' \
 }
 
-function ww:skill/_item {id: 'friends_list'}
+function ww:skill/_item_with_custom_model_data {id: 'friends_list', custom_model_data: 23313}

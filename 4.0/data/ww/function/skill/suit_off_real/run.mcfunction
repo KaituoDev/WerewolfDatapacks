@@ -9,4 +9,4 @@ attribute @s movement_speed base set 0.1
 
 clear @s *[minecraft:custom_data~{suit_up_real:true}]
 clear @s *[minecraft:custom_data~{suit_off_real:true}]
-function ww:skill/_item {id: 'suit_up_real'}
+function ww:skill/_item_with_custom_model_data {id: 'suit_up_real', custom_model_data: 23329}

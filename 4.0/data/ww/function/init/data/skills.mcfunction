@@ -1,12 +1,12 @@
 data modify storage ww:memory SKILLS_INTRO set value { \
   "suit_up": { \
     name: "着装", \
-    descriptions: ["穿上盔甲", "永久隐形", "赋予武器追踪其他非同伴玩家", "冷却10秒"], \
+    descriptions: ["穿上盔甲", "永久隐形", "加速", "追踪其他非同伴玩家", "冷却10秒"], \
     fool: ["技能冷却变20秒"] \
   }, \
   "suit_off": { \
     name: "脱装", \
-    descriptions: ["脱下盔甲", "但不会回收武器", "冷却10秒"], \
+    descriptions: ["脱下盔甲", "冷却10秒"], \
     fool: ["技能冷却变20秒"] \
   }, \
   "autopilot": { \

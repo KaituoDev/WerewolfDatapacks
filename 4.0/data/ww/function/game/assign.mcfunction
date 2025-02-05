@@ -15,7 +15,7 @@ execute unless entity @e[predicate=ww:player,tag=bads] as @e[tag=bads,type=marke
 # guarantee 1 spirits if exists in pool
 execute if entity @e[tag=spirits,type=marker,tag=ww.role_assignment] unless entity @e[predicate=ww:player,tag=spirits] as @e[tag=spirits,type=marker,tag=ww.role_assignment,sort=random,limit=1] run return run function ww:game/assign/set_role
 
-# guarantee 1 spirits if exists in pool
+# guarantee 1 goods if exists in pool
 execute if entity @e[tag=goods,type=marker,tag=ww.role_assignment] unless entity @e[predicate=ww:player,tag=goods] as @e[tag=goods,type=marker,tag=ww.role_assignment,sort=random,limit=1] run return run function ww:game/assign/set_role
 
 # default

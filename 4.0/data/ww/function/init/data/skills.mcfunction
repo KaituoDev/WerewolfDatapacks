@@ -198,7 +198,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "imprisonment": { \
     name: "强制坐牢", \
-    descriptions: ["瞄准玩家按下右键","使其停止移动10秒","当时间剩余不到20秒时无法使用"], \
+    descriptions: ["瞄准玩家按下右键","使其停止移动10秒"], \
     fool: ["使自己停止移动5秒"] \
   }, \
   "question": { \

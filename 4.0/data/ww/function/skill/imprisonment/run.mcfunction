@@ -1,7 +1,5 @@
 # context: @s = player
 
-execute if score %remainingTime ww.system matches ..400 run return run function ww:chat/_dm {type: 'warn', message: '剩余时间不允许发动'}
-
 function ww:player/looking_at
 execute unless data storage ww:output lookingAt run return fail
 clear @s *[minecraft:custom_data~{imprisonment:true}]

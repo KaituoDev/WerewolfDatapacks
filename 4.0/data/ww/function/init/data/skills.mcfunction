@@ -223,12 +223,12 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "christmas_gift_coal": { \
     name: "圣诞礼物", \
-    descriptions: ["右键开启，可能性有","煤炭：缓速+黑暗","玩具：加速","黄金：无敌"], \
+    descriptions: ["右键开启，可能性有","煤炭：缓速+黑暗","玩具：加速","黄金：无敌并清除巫毒"], \
     fool: ["无"] \
   }, \
   "christmas_gift": { \
     name: "圣诞礼物", \
-    descriptions: ["右键开启，可能性有","煤炭：缓速+黑暗","玩具：加速","黄金：无敌"], \
+    descriptions: ["右键开启，可能性有","煤炭：缓速+黑暗","玩具：加速","黄金：无敌并清除巫毒"], \
     fool: ["无"] \
   }, \
 }

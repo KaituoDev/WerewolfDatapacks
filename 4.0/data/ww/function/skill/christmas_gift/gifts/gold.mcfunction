@@ -14,5 +14,4 @@ tag @s remove this
 
 scoreboard players add @s ww.immune 200
 
-function ww:player/role/_remove_state {path: 'bewitched'}
-function ww:chat/_dm {type: 'info', message: '你的蛊毒被清除了'}
+execute as @s run function ww:player/role/_remove_state {path: 'voodooCurse'}

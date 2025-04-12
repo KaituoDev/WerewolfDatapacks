@@ -34,7 +34,7 @@ tellraw @a [{"text":"第 ","color":"white"},{"score":{"name":"%days","objective"
 execute as @e[predicate=ww:player] run function ww:skill/on_morning
 
 # give all players weakness effect on the first day
-execute if score %days ww.system matches 1 run effect give @a weakness infinite 2
+execute if score %days ww.system matches 1 run effect give @a weakness infinite 2 true
 
 # morning items
 execute if score %days ww.system matches 2.. as @a[predicate=ww:alive] run function ww:game/elimination/item

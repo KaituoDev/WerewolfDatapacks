@@ -33,8 +33,8 @@ tellraw @a [{"text":"第 ","color":"white"},{"score":{"name":"%days","objective"
 # to ensure role swap happens before daily items
 execute as @e[predicate=ww:player] run function ww:skill/on_morning
 
-# give all players weekness effect on the first day
-execute if score %days ww.system matches 2.. run effect give @a weekness infinite 2
+# give all players weakness effect on the first day
+execute if score %days ww.system matches 1 run effect give @a weakness infinite 2
 
 # morning items
 execute if score %days ww.system matches 2.. as @a[predicate=ww:alive] run function ww:game/elimination/item

@@ -34,11 +34,7 @@ execute as @e[predicate=ww:alive,type=villager,tag=bads] at @s run function ww:a
 function ww:ai/behavior/spread_npc/init
 
 # clean the weekness effect on the first day
-execute if score %days ww.system matches 1 run effect clear @a[predicate=ww:alive]
-
-# apply glowing all
-execute if function ww:config/flag/should_glow_all run \
-    effect give @e[predicate=ww:alive] glowing infinite 0 true
+execute if score %days ww.system matches 1 run effect clear @a[predicate=ww:alive] weakness
 
 # night items
 execute as @a[predicate=ww:alive] run function ww:role/daily

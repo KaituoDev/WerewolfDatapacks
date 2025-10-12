@@ -31,8 +31,3 @@ item replace entity @s armor.feet with netherite_boots[unbreakable={show_in_tool
   {id:"knockback_resistance",type:"knockback_resistance",amount:0,operation:"add_multiplied_base",slot:"feet"}, \
   {id:"armor_toughness",type:"armor_toughness",amount:0,operation:"add_multiplied_base",slot:"feet"} \
 ],show_in_tooltip:false},trim={material:"minecraft:gold",pattern:"minecraft:shaper",show_in_tooltip:false}] 1
-
-clear @s *[custom_data~{killer_weapon: true}]
-clear @s *[custom_data~{killer_weapon: false}]
-give @s[tag=bads] netherite_axe[item_name='{"bold":true,"color":"red","italic":false,"text":"狼人的獠牙"}',unbreakable={show_in_tooltip:false},custom_data={killer_weapon: true}] 1
-give @s[tag=!bads] netherite_axe[item_name='{"bold":true,"color":"red","italic":false,"text":"狼人的门牙"}',unbreakable={show_in_tooltip:false},custom_data={killer_weapon: false}] 1

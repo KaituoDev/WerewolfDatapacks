@@ -106,6 +106,11 @@ data modify storage ww:memory SKILLS_INTRO set value { \
     descriptions: ["魅惑10格内的所有活玩家","使其受到大幅度缓速","并看向自已","自己则获得加速与无敌5秒"], \
     fool: ["大家一起加速"] \
   }, \
+  "snipe": { \
+    name: "狙击", \
+    descriptions: ["瞄准玩家按下右键","若该玩家能被杀死","则击毙这名玩家","使用后自身会获得10s发光和缓慢"], \
+    fool: ["打不中目标"] \
+  }, \
   "shovel": { \
     name: "掘墓铲", \
     descriptions: ["挖起坟墓","继承该玩家的职业"], \
@@ -236,7 +241,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
 data modify storage ww:memory GACHA_SKILLS set value [ \
   "suit_up","suit_up_real","autopilot","rifle","implant_bomb","glow_up", \
   "blood_moon","prophecy","poison_potion","healing_potion", "ninjutsu_set", \
-  "sing","shovel","challenge","guard","forensic","arousal","steal", \
+  "sing","snipe","shovel","challenge","guard","forensic","arousal","steal", \
   "invisible_on","voodoo_needle","holy_set","za_warudo","switch_all","switch", \
   "lure", "charm", "imprisonment", "question", "send_gift", "steal_gift" \
 ]

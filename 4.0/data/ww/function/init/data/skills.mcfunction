@@ -103,7 +103,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "size_reduce": { \
     name: "缩小", \
-    descriptions: ["在白天时将自己变小","并隐藏身份10秒钟"], \
+    descriptions: ["在白天将自己变小","并隐藏自己的皮肤10秒钟"], \
     fool: ["变大的同时变慢"] \
   }, \
   "sing": { \

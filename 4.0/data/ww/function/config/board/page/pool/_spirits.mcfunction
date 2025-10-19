@@ -18,7 +18,7 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-2 ^-1 ^1 { \
 $execute at @n[nbt={UUID:$(origin)}] run \
   function ww:config/board/action/pool/_update_sign {id: 'voodoo', origin: $(origin), pos: '^-1 ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^-1 ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'nils', origin: $(origin), pos: '^-1 ^1 ^1'}
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-1 ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['{"text":""}', \

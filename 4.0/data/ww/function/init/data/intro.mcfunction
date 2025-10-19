@@ -67,6 +67,10 @@ data modify storage ww:memory ROLES_INTRO set value { \
     notes: ["隐形时速度提升"], \
     skills: [ {id: 'ninja_scroll'}, {id: 'ninjutsu_activate'} ] \
   }, \
+  "nils": { \
+    notes: [], \
+    skills: [ {id: 'size_reduce'}] \
+  }, \
   "trickster": { \
     notes: ["武器不会杀死人"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"} ] \

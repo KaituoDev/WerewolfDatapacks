@@ -49,6 +49,10 @@ function ww:player/actionbar/_format_score \
 function ww:player/actionbar/_format_score \
   {objective: 'ninjaTransform', title: '蚁遁', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
 
+# nilsSizeReduce countdown
+function ww:player/actionbar/_format_score \
+  {objective: 'nilsSizeReduce', title: '缩小', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
+
 # sing countdown
 function ww:player/actionbar/_format_score \
   {objective: 'sing', title: '唱歌', titleColor: 'red', valueColor: 'yellow', scale: 0.05}
@@ -84,6 +88,7 @@ $title @s actionbar [ \
   {"nbt":"actionbarInput.morphing.text","storage":"ww:temp","interpret":true}, \
   {"nbt":"actionbarInput.ninjaTree.text","storage":"ww:temp","interpret":true}, \
   {"nbt":"actionbarInput.ninjaTransform.text","storage":"ww:temp","interpret":true}, \
+  {"nbt":"actionbarInput.nilsSizeReduce.text","storage":"ww:temp","interpret":true}, \
   {"nbt":"actionbarInput.sing.text","storage":"ww:temp","interpret":true}, \
   {"nbt":"actionbarInput.curseStacks.text","storage":"ww:temp","interpret":true}, \ 
   {"nbt":"actionbarInput.za_warudo.text","storage":"ww:temp","interpret":true}, \ 

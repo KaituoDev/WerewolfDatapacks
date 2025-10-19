@@ -37,6 +37,7 @@ scoreboard players reset * ww.ninjaScroll
 scoreboard players reset * ww.ninjaTree
 # scoreboard players reset * ww.ninjaSmoke
 scoreboard players reset * ww.ninjaTransform
+scoreboard players reset * ww.nilsSizeReduce
 scoreboard players reset * ww.sing
 # score is reset in skill/za_warudo/end
 # scoreboard players reset * ww.za_warudo

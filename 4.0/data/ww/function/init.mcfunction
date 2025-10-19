@@ -48,6 +48,7 @@ scoreboard objectives add ww.morphing dummy
 scoreboard objectives add ww.ninjaTree dummy
 # scoreboard objectives add ww.ninjaSmoke dummy
 scoreboard objectives add ww.ninjaTransform dummy
+scoreboard objectives add ww.nilsSizeReduce dummy
 scoreboard objectives add ww.sing dummy
 scoreboard objectives add ww.za_warudo dummy
 # scoreboard objectives add ww.switchOrder dummy

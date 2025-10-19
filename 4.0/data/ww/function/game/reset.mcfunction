@@ -50,6 +50,7 @@ scoreboard players reset * ww.ninjaScroll
 scoreboard players reset * ww.ninjaTree
 # scoreboard players reset * ww.ninjaSmoke
 scoreboard players reset * ww.ninjaTransform
+scoreboard players reset * ww.nilsSizeReduce
 scoreboard players reset * ww.sing
 scoreboard players reset * ww.za_warudo
 scoreboard players reset * ww.charm

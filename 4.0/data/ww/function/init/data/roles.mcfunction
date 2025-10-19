@@ -37,4 +37,5 @@ data modify storage ww:memory ROLES set value [ \
   { id: "rigger", name: "黑箱师", isWolf: 0, campaign: {id: 'spirits', color: 'dark_red', name: '怨灵阵营'} }, \
   { id: "phrenapates", name: "诱骗者", isWolf: 0, campaign: {id: 'spirits', color: 'dark_red', name: '怨灵阵营'} }, \
   { id: "krampus", name: "坎普斯", isWolf: 0, campaign: {id: 'spirits', color: 'dark_red', name: '怨灵阵营'} }, \
+  { id: "nils", name: "尼尔斯", isWolf: 0, campaign: {id: 'spirits', color: 'dark_red', name: '怨灵阵营'} }, \
 ]

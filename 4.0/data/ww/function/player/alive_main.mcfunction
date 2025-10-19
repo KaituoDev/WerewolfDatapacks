@@ -32,8 +32,10 @@ execute if score @s ww.suitCD matches 0.. run function ww:skill/suit/main
 execute if predicate ww:is_suit_up run function ww:skill/suit/passive
 execute if score @s ww.ninjaTree matches 1.. run function ww:skill/ninjutsu_activate/effects/tree/main
 execute if score @s ww.ninjaTransform matches 1.. run scoreboard players remove @s ww.ninjaTransform 1
+execute if score @s ww.nilsSizeReduce matches 1.. run scoreboard players remove @s ww.nilsSizeReduce 1
 
 execute if score @s ww.ninjaTransform matches ..0 run function ww:skill/ninjutsu_activate/effects/mini/reset
+execute if score @s ww.nilsSizeReduce matches ..0 run function ww:skill/size_reduce/reset
 execute if score @s ww.sing matches 1.. run function ww:skill/sing/main
 execute if score @s ww.invisItemCD matches 1.. run function ww:skill/invisible_on/main
 execute if score @s ww.charm matches 1.. run function ww:skill/charm/main

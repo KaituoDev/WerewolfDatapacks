@@ -101,6 +101,11 @@ data modify storage ww:memory SKILLS_INTRO set value { \
     descriptions: ["选择一名活玩家","若该玩家为抖M","则自己受到的伤害","都转移到该玩家身上"], \
     fool: ["查到抖M会公布名字", "同时自己受的伤害不会转移"] \
   }, \
+  "size_reduce": { \
+    name: "缩小", \
+    descriptions: ["在白天时将自己变小","并隐藏身份10秒钟"], \
+    fool: ["变大的同时变慢"] \
+  }, \
   "sing": { \
     name: "唱歌", \
     descriptions: ["魅惑10格内的所有活玩家","使其受到大幅度缓速","并看向自已","自己则获得加速与无敌5秒"], \
@@ -240,7 +245,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
 
 data modify storage ww:memory GACHA_SKILLS set value [ \
   "suit_up","suit_up_real","autopilot","rifle","implant_bomb","glow_up", \
-  "blood_moon","prophecy","poison_potion","healing_potion", "ninjutsu_set", \
+  "blood_moon","prophecy","poison_potion","healing_potion","ninjutsu_set","size_reduce", \
   "sing","snipe","shovel","challenge","guard","forensic","arousal","steal", \
   "invisible_on","voodoo_needle","holy_set","za_warudo","switch_all","switch", \
   "lure", "charm", "imprisonment", "question", "send_gift", "steal_gift" \

@@ -4,6 +4,7 @@ execute unless predicate ww:started run return fail
 
 # auto convert madmans if any
 execute if score %bads ww.system matches 0 \
+ if score %alives ww.system matches 2.. \
  if score %goodsMadmans ww.system matches 1.. run return run \
  function ww:role/madman/convert_all
 

@@ -20,3 +20,7 @@ function ww:player/_set_state with storage ww:temp setStateInput
 
 # sanitize tags
 function ww:player/tag/sanitize
+tag @s add bads
+
+execute if predicate ww:is_night run function ww:role/madman/on_night
+execute unless predicate ww:is_night run function ww:role/madman/on_morning

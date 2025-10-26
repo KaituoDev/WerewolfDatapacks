@@ -11,6 +11,7 @@ data modify storage ww:memory ROLES set value [ \
   { id: "seer_wolf", name: "占星狼", isWolf: 1, campaign: {id: 'bads', color: 'red', name: '狼人阵营'} }, \
   { id: "charm_wolf", name: "狼美人", isWolf: 1, campaign: {id: 'bads', color: 'red', name: '狼人阵营'} }, \
   { id: "sniper_wolf", name: "狙击狼", isWolf: 1, campaign: {id: 'bads', color: 'red', name: '狼人阵营'} }, \
+  { id: "bolt", name: "博尔特", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "cupid", name: "邱比特", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "seer", name: "预言家", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "witch", name: "女巫", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \

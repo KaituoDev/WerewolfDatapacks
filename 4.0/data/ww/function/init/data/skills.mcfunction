@@ -146,6 +146,11 @@ data modify storage ww:memory SKILLS_INTRO set value { \
     descriptions: ["显示已骚扰与未骚扰的名单"], \
     fool: ["所有玩家都会看到未骚扰的名单","已骚扰的不会泄漏"] \
   }, \
+  "sprint": { \
+    name: "冲刺", \
+    descriptions: ["以极高的速度(速度V)", "冲刺5秒钟"], \
+    fool: ["无"] \
+  }, \
   "steal": { \
     name: "标记盗取目标", \
     descriptions: ["瞄准玩家按下右键", "在隔日与标记对象互换职业", "包含职业状态", "但偷不了警长"], \
@@ -246,7 +251,7 @@ data modify storage ww:memory SKILLS_INTRO set value { \
 data modify storage ww:memory GACHA_SKILLS set value [ \
   "suit_up","suit_up_real","autopilot","rifle","implant_bomb","glow_up", \
   "blood_moon","prophecy","poison_potion","healing_potion","ninjutsu_set","size_reduce", \
-  "sing","snipe","shovel","challenge","guard","forensic","arousal","steal", \
+  "sing","snipe","sprint","shovel","challenge","guard","forensic","arousal","steal", \
   "invisible_on","voodoo_needle","holy_set","za_warudo","switch_all","switch", \
   "lure", "charm", "imprisonment", "question", "send_gift", "steal_gift" \
 ]

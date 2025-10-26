@@ -35,7 +35,7 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-1 ^-1 ^1 { \
 
 # Center
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'detective', origin: $(origin), pos: '^ ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'bolt', origin: $(origin), pos: '^ ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
   function ww:config/board/action/pool/_update_sign {id: 'madman', origin: $(origin), pos: '^ ^1 ^1'}
 

@@ -47,6 +47,10 @@ data modify storage ww:memory ROLES_INTRO set value { \
     notes: ["不能变身为狼","没有近战武器", "每天夜晚只能用枪狙击最多一个人"], \
     skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "snipe"} ] \
   }, \
+  "bolt": { \
+    notes: ["每天白天和晚上", "都能冲刺一次"], \
+    skills: [ {id: 'sprint'} ] \
+  }, \
   "cupid": { \
     notes: ["选择恋人组合", "当场上只剩下恋人时就算恋人胜利","邱比特活着的话也算胜利", "恋人任一方死去", "另一人也会陪葬"], \
     skills: [ {id: 'pairing_book'} ] \

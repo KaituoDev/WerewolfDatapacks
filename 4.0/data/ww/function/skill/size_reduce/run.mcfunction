@@ -6,9 +6,9 @@ function ww:chat/_dm {type: 'rich_info', \
   message: '[{"text":"你发动了 ","color":"white","bold":false},{"text":"缩小","color":"green","bold":true}]' \
 }
 
-scoreboard players add @s ww.nilsSizeReduce 200
+scoreboard players add @s ww.nilsSizeReduce 300
 execute if entity @s[tag=ww.fool] run attribute @s scale base set 6
-effect give @s invisibility 15 0 true
+effect give @s invisibility 20 0 true
 
 item replace entity @s armor.head with leather_helmet[trim={pattern:rib,material:gold}, \
   dyed_color={rgb:13583672},enchantment_glint_override=false,enchantments={levels:{binding_curse:1}}, \

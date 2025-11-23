@@ -72,7 +72,7 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'ninja_scroll'}, {id: 'ninjutsu_activate'} ] \
   }, \
   "nils": { \
-    notes: ["投票时不会公布自己的名字"], \
+    notes: ["在隐身或缩小时投票", "不会公布自己的名字"], \
     skills: [ {id: 'size_reduce'}] \
   }, \
   "trickster": { \

@@ -5,11 +5,6 @@ execute if entity @s[tag=ww.fool] run function ww:chat/_dm {type: 'rich_info', \
   message: '[{"text":"未能击毙目标","color":"white","bold":false}]' \
 }
 
-execute unless entity @s[tag=ww.fool] \
- run function ww:chat/_dm {type: 'rich_info', \
-  message: '[{"text":"未能击毙目标","color":"white","bold":false}]' \
-}
-
 $execute unless entity @s[tag=ww.fool] \ 
   as @n[nbt={UUID:$(uuid)},tag=!$(campaign)] if function ww:player/flag/is_immune \
   run function ww:chat/_dm {type: 'rich_info', \

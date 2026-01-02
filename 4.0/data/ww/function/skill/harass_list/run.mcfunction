@@ -18,11 +18,12 @@ execute if entity @e[predicate=ww:alive,tag=!hentai,tag=!ww.harassed] run tellra
  {"selector":"@e[predicate=ww:alive,tag=!hentai,tag=!ww.harassed]","color":"red","bold":true} \
 ]
 
-execute if entity @s[tag=ww.fool] if entity @e[predicate=ww:alive,tag=!hentai,tag=!ww.harassed] as @a[tag=!this,tag=!hentai] run \
- function ww:chat/_dm { type: 'info', message: '[ \
-  {"text":"未骚扰: ","color":"white","bold":false}, \
+execute if entity @s[tag=ww.fool] if entity @e[predicate=ww:alive,tag=!hentai,tag=!ww.harassed] \
+  run tellraw @a[tag=!this,tag=!hentai] [\
+  {"text":"[提示] ", "color": "aqua", "bold": true}, \
+  {"text":"色狼尚未骚扰: ","color":"white","bold":false}, \
   {"selector":"@e[predicate=ww:alive,tag=!hentai,tag=!ww.harassed]","color":"red","bold":true} \
-  ]'}
+]
 
 tellraw @s {"text":"\n********************\n", "color":"blue","bold":true}
 tag @s remove this

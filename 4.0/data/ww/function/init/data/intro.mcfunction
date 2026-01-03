@@ -67,6 +67,10 @@ data modify storage ww:memory ROLES_INTRO set value { \
     notes: [], \
     skills: [ {id: 'rifle'} ] \
   }, \
+  "exorcist": { \
+    notes: ["用净化水晶击中狼人", "可以将狼人净化为诈欺师"], \
+    skills: [ {id: 'exorcise'} ] \
+  }, \
   "ninja": { \
     notes: ["隐形时速度提升"], \
     skills: [ {id: 'ninja_scroll'}, {id: 'ninjutsu_activate'} ] \

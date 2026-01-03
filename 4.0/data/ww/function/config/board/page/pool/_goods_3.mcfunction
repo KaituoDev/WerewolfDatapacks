@@ -3,9 +3,9 @@
 
 # Left 2
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'knight', origin: $(origin), pos: '^-2 ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'detective', origin: $(origin), pos: '^-2 ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'warden', origin: $(origin), pos: '^-2 ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^-2 ^1 ^1'}
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-2 ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""','""','""','""'], color:"white"} \
@@ -16,13 +16,13 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-2 ^-1 ^1 { \
 
 # Left 1
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'guardian', origin: $(origin), pos: '^-1 ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'villager', origin: $(origin), pos: '^-1 ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'sensei', origin: $(origin), pos: '^-1 ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^-1 ^1 ^1'}
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-1 ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['{"text":""}', \
-  '{"text":"上一页","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/pool/_goods\\", args: {pos: \\"^-1 ^ ^1\\"}}"}}', \
+  '{"text":"上一页","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/pool/_goods_2\\", args: {pos: \\"^-1 ^ ^1\\"}}"}}', \
   '{"text":""}', \
   '{"text":""}'], color:"white"} \
 }
@@ -35,9 +35,9 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^-1 ^-1 ^1 { \
 
 # Center
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'bolt', origin: $(origin), pos: '^ ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^ ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'madman', origin: $(origin), pos: '^ ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^ ^1 ^1'}
 
 $execute at @e[nbt={UUID:$(origin)}] run data merge block ^ ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['""', \
@@ -52,15 +52,12 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^ ^-1 ^1 { \
 
 # Right 1
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'hentai', origin: $(origin), pos: '^1 ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^1 ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'santa', origin: $(origin), pos: '^1 ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^1 ^1 ^1'}
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^1 ^ ^1 { \
-  front_text:{has_glowing_text:0b, messages: ['{"text":""}', \
-  '{"text":"下一页","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function ww:config/board/action/_run {func: \\"ww:config/board/page/pool/_goods_3\\", args: {pos: \\"^1 ^ ^1\\"}}"}}', \
-  '{"text":""}', \
-  '{"text":""}'], color:"white"} \
+  front_text:{has_glowing_text:0b, messages: ['""','""','""','""'], color:"white"} \
 }
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^1 ^-1 ^1 { \
@@ -71,9 +68,9 @@ $execute at @n[nbt={UUID:$(origin)}] run data merge block ^1 ^-1 ^1 { \
 
 # Right 2
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'thief', origin: $(origin), pos: '^2 ^2 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^2 ^2 ^1'}
 $execute at @n[nbt={UUID:$(origin)}] run \
-  function ww:config/board/action/pool/_update_sign {id: 'exorcist', origin: $(origin), pos: '^2 ^1 ^1'}
+  function ww:config/board/action/pool/_update_sign {id: 'aaa', origin: $(origin), pos: '^2 ^1 ^1'}
 
 $execute at @n[nbt={UUID:$(origin)}] run data merge block ^2 ^ ^1 { \
   front_text:{has_glowing_text:0b, messages: ['{"text":""}', \

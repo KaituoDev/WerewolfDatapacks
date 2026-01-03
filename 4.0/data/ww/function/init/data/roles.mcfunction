@@ -16,6 +16,7 @@ data modify storage ww:memory ROLES set value [ \
   { id: "seer", name: "预言家", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "witch", name: "女巫", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "hunter", name: "猎人", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
+  { id: "exorcist", name: "驱魔师", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "ninja", name: "忍者", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "trickster", name: "诈欺师", isWolf: 1, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \
   { id: "masochist", name: "抖M教徒", isWolf: 0, campaign: {id: 'goods', color: '#50d300', name: '人类阵营'} }, \

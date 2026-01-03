@@ -3,6 +3,7 @@
 
 execute unless data storage ww:temp allRolesData[0] run return 0
 
+function ww:book/build/utils/new_page
 function ww:book/build/_role_page with storage ww:temp allRolesData[0]
 function ww:book/build/utils/new_page
 

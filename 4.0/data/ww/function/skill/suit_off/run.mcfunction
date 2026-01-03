@@ -4,6 +4,7 @@ execute if score @s ww.suitCD matches 1.. run return run function ww:chat/_dm {t
 
 scoreboard players set @s ww.suitCD 200
 execute if entity @s[tag=ww.fool] run scoreboard players set @s ww.suitCD 400
+tag @s remove ww.suit_up
 
 attribute @s movement_speed base set 0.1
 attribute @s[type=villager] movement_speed base set 0.5

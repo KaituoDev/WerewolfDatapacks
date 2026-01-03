@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {"exorcist_crystal": true}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ww:skill/exorcise/run"
+  },
+  "sends_telemetry_event": false
+}

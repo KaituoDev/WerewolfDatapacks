@@ -1,16 +1,4 @@
-# context: @s = player
-
-execute if score @s ww.suitCD matches 1.. run return run function ww:chat/_dm {type: 'warn', message: '技能还在冷却'}
-
-scoreboard players set @s ww.suitCD 200
-execute if entity @s[tag=ww.fool] run scoreboard players set @s ww.suitCD 400
-tag @s add ww.suit_up
-
-attribute @s movement_speed base set 0.1
-attribute @s[type=villager] movement_speed base set 0.5
-
-clear @s *[minecraft:custom_data~{suit_up:true}]
-function ww:skill/_item_with_custom_model_data {id: 'suit_off', custom_model_data: 23328}
+# context: @s = player | villager
 
 item replace entity @s armor.head with netherite_helmet[unbreakable={show_in_tooltip:false},custom_data={suit_up:true},enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:false},enchantment_glint_override=true,attribute_modifiers={modifiers:[ \
   {id:"knockback_resistance",type:"knockback_resistance",amount:0,operation:"add_multiplied_base",slot:"head"}, \

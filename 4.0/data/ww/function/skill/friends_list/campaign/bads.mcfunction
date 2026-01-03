@@ -1,6 +1,6 @@
 # context: @s = player
 
-execute if score %totalBads ww.system matches 1 run return run function ww:skill/friends_list/lonely
+execute if score %totalWolfKind ww.system matches 1 run return run function ww:skill/friends_list/lonely
 
 tellraw @s {"text":"\n********************\n", "color":"blue","bold":true}
 tag @s add this

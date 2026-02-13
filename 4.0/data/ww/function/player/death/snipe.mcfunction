@@ -1,4 +1,5 @@
 # context: @s = victim player | villager
+# inputs: {source: UUID}
 
 scoreboard players reset @s ww.deaths
 
@@ -12,5 +13,7 @@ function ww:player/death/_message {message: \
     {"text":" 被击毙了","color":"white","bold":false} \
   ]' \
 }
+
+$execute as @n[nbt={UUID:$(source)}] run function ww:player/increment_kill
 
 function ww:player/on_death

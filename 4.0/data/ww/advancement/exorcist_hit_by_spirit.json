@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+            "nbt": "{Tags: [\"ww.role.exorcist.onNight\"]}"
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+                "type": "minecraft:player",
+                "nbt": "{Tags: [\"spirits\"]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ww:role/exorcist/hit_by_spirits"
+  },
+  "sends_telemetry_event": false
+}

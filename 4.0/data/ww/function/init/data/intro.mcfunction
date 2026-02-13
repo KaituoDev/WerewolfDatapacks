@@ -68,7 +68,7 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'rifle'} ] \
   }, \
   "exorcist": { \
-    notes: ["用净化水晶击中狼人", "可以将狼人净化为诈欺师"], \
+    notes: ["用净化水晶击中狼人", "可以将狼人净化为诈欺师", "若自己被怨灵打到", "则会堕落而死"], \
     skills: [ {id: 'exorcise'} ] \
   }, \
   "ninja": { \
@@ -128,7 +128,7 @@ data modify storage ww:memory ROLES_INTRO set value { \
     skills: [ {id: 'question'} ] \
   }, \
   "madman": { \
-    notes: ["当狼人阵营全灭时，自动转为狼人阵营"], \
+    notes: ["当狼人阵营全灭时，自动转为暴走狼"], \
     skills: [] \
   }, \
   "santa": { \

@@ -30,5 +30,5 @@ item replace entity @s armor.legs with leather_leggings[trim={pattern:rib,materi
 
 item replace entity @s armor.feet with netherite_boots[trim={pattern:silence,material:copper}, \
   enchantment_glint_override=false,enchantments={levels:{binding_curse:1}}, \
-  attribute_modifiers={modifiers:[{type:movement_speed,amount:0.2,slot:feet,operation:add_multiplied_total,id:1760794255773}]}, \
+  attribute_modifiers={modifiers:[{type:movement_speed,amount:0.5,slot:feet,operation:add_multiplied_total,id:1760794255773}]}, \
   unbreakable={},custom_data={nils_suit:true}] 1

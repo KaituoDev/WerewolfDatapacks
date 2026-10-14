@@ -33,6 +33,9 @@ data modify storage ww:temp setStateInput.value set from storage ww:output playe
 function ww:player/_set_state with storage ww:temp setStateInput
 function ww:player/tag/sanitize
 
+# The new role hands out its own items immediately, like ww:role/madman/convert does.
+function ww:role/daily
+
 # clean up
 data remove storage ww:temp setStateInput
 

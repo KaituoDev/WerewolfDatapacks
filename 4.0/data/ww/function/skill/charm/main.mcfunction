@@ -3,7 +3,7 @@
 
 scoreboard players remove @s ww.charm 1
 
-particle note ~ ~ ~ 4 4 4 0 40 normal @a
+particle heart ~ ~ ~ 4 4 4 0 40 normal @a
 
 tag @s add this
 

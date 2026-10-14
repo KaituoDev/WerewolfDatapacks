@@ -1,3 +1,3 @@
 # context: @s = player
 
-function ww:skill/_item {id: 'za_warudo'}
+function ww:skill/_item_with_model {id: 'za_warudo', model: 'ender_eye', stack_size: 1}

@@ -10,7 +10,7 @@ attribute @s movement_speed base set 0.1
 attribute @s[type=villager] movement_speed base set 0.5
 
 clear @s *[minecraft:custom_data~{suit_up:true}]
-function ww:skill/_item {id: 'suit_off'}
+function ww:skill/_item_with_model {id: 'suit_off', model: 'chainmail_chestplate', stack_size: 1}
 
 item replace entity @s armor.head with netherite_helmet[unbreakable={show_in_tooltip:false},custom_data={suit_up:true},enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:false},enchantment_glint_override=true,attribute_modifiers={modifiers:[ \
   {id:"knockback_resistance",type:"knockback_resistance",amount:0,operation:"add_multiplied_base",slot:"head"}, \

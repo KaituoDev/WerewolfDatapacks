@@ -1,3 +1,3 @@
 # context: @s = player
 
-function ww:skill/_item {id: 'ninjutsu_activate'}
+function ww:skill/_item_with_model {id: 'ninjutsu_activate', model: 'feather', stack_size: 1}

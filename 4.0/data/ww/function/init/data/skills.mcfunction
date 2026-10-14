@@ -208,8 +208,8 @@ data modify storage ww:memory SKILLS_INTRO set value { \
   }, \
   "charm": { \
     name: "魅惑", \
-    descriptions: ["吸引10格内的所有活玩家","使其缓缓地靠近自己"], \
-    fool: ["把10格内的所有活玩家都往外推挤"] \
+    descriptions: ["使5格内的所有活玩家","转身面向自己","并大幅缓速3秒"], \
+    fool: ["大家一起加速"] \
   }, \
   "imprisonment": { \
     name: "强制坐牢", \

@@ -68,6 +68,13 @@ data remove storage ww:temp newSelfRoleState.pairing
 data modify storage ww:temp newSelfRoleState merge from storage ww:temp preservedSelfRoleState
 data modify storage ww:temp newOtherRoleState merge from storage ww:temp preservedOtherRoleState
 
+# A role swap exchanges professions only. A pending death and curse stacks stay
+# with the player they were applied to, and never move to the other side.
+data remove storage ww:temp newSelfRoleState.dyingDate
+data remove storage ww:temp newSelfRoleState.voodooCurse
+data remove storage ww:temp newOtherRoleState.dyingDate
+data remove storage ww:temp newOtherRoleState.voodooCurse
+
 # tellraw YoshinoBHL ["newSelfRoleState: ", {"storage":"ww:temp","nbt":"newSelfRoleState"}]
 # tellraw YoshinoBHL ["newOtherRoleState: ", {"storage":"ww:temp","nbt":"newOtherRoleState"}]
 

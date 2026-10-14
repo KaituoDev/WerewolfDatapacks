@@ -14,6 +14,10 @@ data modify storage ww:temp setStateInput.value set from storage ww:output playe
 $execute as @n[nbt={UUID:$(uuid)}] run function ww:player/role/get_state
 data remove storage ww:output playerState.hijackedHead
 data remove storage ww:output playerState.pairing
+# A corpse's pending death and curse belong to the corpse, not to the shovel.
+# merge overwrites the digger's own values, so both must be dropped explicitly.
+data remove storage ww:output playerState.dyingDate
+data remove storage ww:output playerState.voodooCurse
 
 data modify storage ww:temp setStateInput.value merge from storage ww:output playerState
 

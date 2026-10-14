@@ -9,6 +9,11 @@ effect give @s invisibility infinite 0 true
 # clear all ww.stealGiftSource
 function ww:skill/steal_gift/reset
 
+# A dead player no longer has a pending death, and no longer carries a curse.
+# This runs before the grave is created, so the grave records a clean state.
+function ww:player/role/_remove_state {path: 'dyingDate'}
+function ww:player/role/_remove_state {path: 'voodooCurse'}
+
 # create a grave
 function ww:skill/shovel/grave/create
 

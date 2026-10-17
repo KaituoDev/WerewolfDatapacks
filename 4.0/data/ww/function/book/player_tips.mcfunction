@@ -12,22 +12,21 @@ data modify storage ww:temp getTipsInput.roleId set from storage ww:output playe
 function ww:role/_get_tips with storage ww:temp getTipsInput
 
 # nothing written for this role yet, so do not hand out an empty book
-execute unless data storage ww:output roleTips.goal run return fail
+execute unless data storage ww:output roleTips[0] run return fail
 
 function ww:book/build/utils/_init { \
   title: '{"bold":true,"color":"aqua","text":"职业技巧"}', \
   id: 'ww.intro.tips' \
 }
 
-# what this role is supposed to do
+# the header line, the number of the tips does the talking
 data modify storage ww:temp tipHeaderInput set value {}
 data modify storage ww:temp tipHeaderInput.name set from storage ww:output playerState.name
 data modify storage ww:temp tipHeaderInput.color set from storage ww:output playerState.campaign.color
-data modify storage ww:temp tipHeaderInput.goal set from storage ww:output roleTips.goal
 function ww:book/build/intro/_tips_header with storage ww:temp tipHeaderInput
 
 # one row per tip
-data modify storage ww:temp tipList set from storage ww:output roleTips.tips
+data modify storage ww:temp tipList set from storage ww:output roleTips
 scoreboard players set %tipIndex ww.var 0
 function ww:book/build/intro/tips/loop
 data remove storage ww:temp tipList

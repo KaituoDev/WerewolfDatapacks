@@ -11,4 +11,10 @@ execute if score %map ww.system matches ..-1 run scoreboard players set %map ww.
 data modify storage ww:temp getMapObjectInput set value {}
 execute store result storage ww:temp getMapObjectInput.index int 1 run scoreboard players get %map ww.system
 function ww:game/map/_get_obj with storage ww:temp getMapObjectInput
+
+# Our own maps may define several spawn points instead of the single location set
+# on the config board, in which case every player is sent to a random one.
+execute if predicate ww:is_our_map if score %map ww.system matches 3 run \
+  return run function pm:map/neighborhood/spawn
+
 function ww:game/map/_teleport with storage ww:output mapObj

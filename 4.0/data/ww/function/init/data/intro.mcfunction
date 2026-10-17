@@ -1,51 +1,51 @@
 data modify storage ww:memory ROLES_INTRO set value { \
   "werewolf": { \
     notes: [], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"} ] \
   }, \
   "black_wolf": { \
     notes: [], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "rifle"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "rifle"} ] \
   }, \
   "white_wolf": { \
     notes: [], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "explosion"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "explosion"} ] \
   }, \
   "snow_wolf": { \
     notes: ["被预言书查中会显示人类阵营"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "glow_up"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "glow_up"} ] \
   }, \
   "hijack_wolf": { \
     notes: ["使预言书玩家名变难以阅读", "所有玩家强制穿皮革装与玩家头颅", "直到场上没有百变狼"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "hijack"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "hijack"} ] \
   }, \
   "alpha_wolf": { \
     notes: ["目标是杀光所有非原初狼的玩家", "同伙名单会额外显示原初狼名单"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"} ] \
   }, \
   "rage_wolf": { \
     notes: ["杀的玩家越多速度越快"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"} ] \
   }, \
   "bomb_wolf": { \
     notes: [], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "implant_bomb"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "implant_bomb"} ] \
   }, \
   "bloody_wolf": { \
     notes: ["杀完玩家后自动获得血月技能"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "blood_moon"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "blood_moon"} ] \
   }, \  
   "seer_wolf": { \
     notes: ["查验名单不共享"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "prophecy"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "prophecy"} ] \
   }, \
   "charm_wolf": { \
     notes: [], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "charm"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "charm"} ] \
   }, \
   "sniper_wolf": { \
     notes: ["不能变身为狼","没有近战武器", "每天夜晚只能用枪狙击最多一个人"], \
-    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "autopilot"}, {id: "friends_list"}, {id: "snipe"} ] \
+    skills: [ {id: "suit_up"}, {id: "suit_off"}, {id: "friends_list"}, {id: "snipe"} ] \
   }, \
   "bolt": { \
     notes: ["每天白天和晚上", "都能冲刺一次"], \

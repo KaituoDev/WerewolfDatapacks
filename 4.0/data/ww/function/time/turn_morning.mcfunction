@@ -31,7 +31,7 @@ tellraw @a {"text":"\n\n********************", "color":"blue","bold":true}
 # First day only: point new players at the role book in the last hotbar slot.
 execute if score %days ww.system matches 1 run tellraw @a [ \
   {"text":"新玩家看这里：","color":"green","bold":true}, \
-  {"text":"阅读快捷栏9号位的职业介绍书，即可快速上手！里面还有牢玩家亲自提供的对局小提示！","color":"white","bold":false} \
+  {"text":"阅读快捷栏9号位的职业介绍书和7号位的职业技巧，即可快速上手！","color":"white","bold":false} \
 ]
 
 tellraw @a [{"text":"第 ","color":"white"},{"score":{"name":"%days","objective":"ww.system"},"color":"green","bold":true},{"text":" 天白天","color":"white","bold":false}]

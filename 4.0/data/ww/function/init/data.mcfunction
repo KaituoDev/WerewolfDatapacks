@@ -2,6 +2,7 @@
 
 function ww:init/data/roles
 function ww:init/data/intro
+function ww:init/data/tips
 function ww:init/data/skills
 function ww:init/data/ai_names
 function ww:init/data/modes
